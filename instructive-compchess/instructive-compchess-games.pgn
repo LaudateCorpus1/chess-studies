@@ -1,0 +1,214 @@
+[Event "CCCC 1: Rapid Rumble (15|5) Stage 1"]
+[Site "Chess.com"]
+[Date "2018.09.10"]
+[Round "27"]
+[White "Ethereal 10.88"]
+[Black "Lc0 17.11089"]
+[Result "1-0"]
+[BlackElo "3326"]
+[BlackType "program"]
+[ECO "B90"]
+[Opening "Sicilian"]
+[PlyCount "173"]
+[Termination "normal"]
+[Time "01:24:38"]
+[TimeControl "900+5"]
+[Variation "Najdorf, Byrne (English) attack"]
+[WhiteElo "3283"]
+[WhiteType "program"]
+
+1. e4 { Bookless opening.}  1... c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 {
+The Najdorf variation}  6. Be3 e5 7. Nb3 Be6 8. f4 { The first move to diverge
+from the mainlines. The move is not bad at all, but makes the game sharper than
+the most popular move, f3.}  8... exf4 9. Bxf4 Nc6 10. a3 $6 $146 { Lichess
+novelty. The main moves here are Qe2 and Qd2, preparing for long castle. This
+seemingly unnecessary move has some potential issues:   ( 1 )  Black can play
+Bxb3 and white has to take with the c-pawn, instead of having the additional
+option to take with tha a-pawn.   ( 2 )  Black has later additional options to
+open some Q-side files by pushing the b pawn.[%cal Ge6b3,Gc2b3,Yb7b4,Ya3b4]} 
+10... Be7 11. Qd2 Nh5 12. Be3 Nf6 13. O-O-O O-O 14. Kb1 b5 { Now exercising
+black's typical Najdorf plan after SALC. A threat is now to push b4 and force
+axb4.[%cal Rb5b4,Rb4c3,Ga3b4]}  15. Nd4 Nxd4 16. Bxd4 Rb8 17. Be2 Nd7 18. Rhf1
+Bg5 19. Qd3 Qe7 20. Bf2 b4 { Now finally pushing b4.}  21. axb4 Rxb4 22. Qxd6
+Rfb8 23. b3 Qd8 24. Nd5 Rxe4 25. Rfe1 Bf5 26. Kb2 Rc8 27. Bd3 Rxe1 28. Bxe1 Bg4
+29. Ra1 Nc5 30. Qxd8+ Rxd8 { White has managed to temper black's attack. The
+position is still somewhat complicated, but should be objectively a draw.}  31.
+Bc4 Be6 32. Rd1 Rd7 33. Bb4 Ne4 34. Kb1 Bd8 35. Rd4 Nf2 36. Bc5 Ng4 37. Nb4
+Rxd4 38. Bxd4 Bxc4 39. bxc4 Bf6 $6 { This is a dubious-looking move, offering
+white extra options for driving the game to a desireable direction. But should
+be still a draw.}  40. Bg1 { White decided to not to exchange, or to change the
+pawn structure. Bg1 also protects the next square for the c4 pawn. This was
+likely the best choice.}  ( { Deflect the N from attacking h2. } 40. Bxf6 Nxf6
+41. Kb2 Kf8 42. Kc3 a5 43. Nc6 Ng4 )( { Exchange B for N with a passer. } 40.
+h3 Bxd4 41. hxg4 { While this position looks a bit weird at first, white's
+pawns are all in the light squares, and white has c-passer while black's
+a-passer is weak.}  )40... Ne5 41. c5 { Now is the time for black to play Kf8.
+The black king needs to move in time to stop the c5 pawn.[%cal
+Yf8c5,Yf8c8,Rc5c8]}  41... a5 $4 42. c6 { Now black king does not have time
+anymore to get in the magic triangle to stop the pawn. Stopping the pawn will
+now cost a piece. [%cal Rc6c8,Ye8c6,Ye8c8]}  42... Bd8 43. Bd4 Bc7 { Now black
+gets at least two pawns for the piece.[%cal Rc7h2]}  ( { This would be even
+worse option than what was played. } 43... axb4 44. Bxe5 Kf8 45. c7 Bxc7 46.
+Bxc7 )44. Bxe5 Bxe5 45. Na6 Bxh2 46. c7 Bxc7 47. Nxc7 f5 { Here Leela thinks
+she is somewhat better with black. This misevaluation is probably due to
+visuals, as the K-side black pawns look intimidating. If one does not
+calculate, it is plausible to think that black has time to march the king to
+support the a5-pawn and overrun the king-side with the pawn wall.  However,
+white has an easy plan here. White has time to take the a5 pawn, and the knight
+can then move to blockade the Q-side pawns. The g2 pawn guarantees than at
+least one black pawn will be exchanged, and the knight can stop two black pawns
+with ease with the "L" defensive pattern.  This position is now a forced win
+for white with best play.}  48. Ne6 Kf7 49. Nd8+ Kf6 50. Nb7 a4 51. Nc5 g5 52.
+Nxa4 h5 53. Nc5 h4 54. Kc1 g4 55. Nd3 h3 56. gxh3 gxh3 { Two pawns left for
+black.}  57. c3 h2 58. Nf2 { Now the knight controls the h1 and f2 squares, and
+black pawns cannot promote alone. However, the king can offer limited
+assistance, since it also needs to watch the c-pawn.  Further, it is important
+to note that the knight can jump freely between the h1 and f2 squares to lose
+tempi. Losing  ( or gaining )  tempi is important when pushing the c-pawn to
+avoid any stalemate tricks by black. With only the white king-pawn vs black
+king, this would be a draw. [%csl Rf2,Rh1]}  58... Ke5 59. Kd2 Kd5 60. Kd3 Ke5
+61. Ke3 Kd5 62. Nh1 { The first tempo loss, requiring black to make a move.} 
+62... Kc4 ( 62... f4+ 63. Kd3 $1 ( 63. Kxf4 $4 Kc4 64. Kg3 Kxc3 65. Kxh2 {
+Draw}  )63... f3 64. Nf2 { Passing the buck back to black.}  64... Kc5 )63. Kd2
+Kd5 64. Kd3 f4 65. c4+ Kc5 66. Kc3 Kd6 67. Kd4 Kd7 68. c5 Kd8 69. c6 Kc8 70.
+Kc5 Kc7 71. Kb5 f3 { Black does not want to move the king, but is soon out of
+choice.}  72. Kc5 f2 73. Nxf2 Kc8 74. Kb6 Kd8 75. c7+ { Without the knight and
+black pawn, Kc8 would draw. But white can always lose a tempo with a knight
+move.}  75... Kd7 76. Kb7 Ke6 77. c8=Q+ Ke5 78. Qh3 Kf4 79. Qxh2+ Kf3 80. Qh3+
+{ Ethereal follows the quickest distance to zero in tablebase win positions.
+Kc6 would mate one move quicker.}  80... Kxf2 81. Kb6 Ke2 82. Kc5 Kf2 83. Kd4
+Kg1 84. Kd3 Kf2 85. Qg4 Kf1 86. Ke3 Ke1 87. Qg1#  1-0
+
+[Event "Bonus: Bluefish vs Leela Jhorthos"]
+[Site "http://tcec.chessdom.com"]
+[Date "2019.04.28"]
+[Round "2.1"]
+[White "LCZero v0.21.1-nT40.T6.532"]
+[Black "Bluefish Dev"]
+[Result "1-0"]
+[BlackElo "3521"]
+[ECO "E05"]
+[GameDuration "04:34:07"]
+[GameEndTime "2019-04-28T12:06:54.972 UTC"]
+[GameStartTime "2019-04-28T07:32:47.891 UTC"]
+[Opening "Catalan"]
+[PlyCount "423"]
+[TerminationDetails "White mates"]
+[TimeControl "7200+5"]
+[Variation "closed, 5.Nf3"]
+[WhiteElo "3404"]
+
+1. d4 { Bookless}  1... Nf6 2. c4 e6 3. g3 d5 4. Bg2 Be7 5. Nf3 O-O 6. O-O dxc4
+7. Qc2 b5 $2 { Typical play here is a6. Trying to keep c4 allows white to get
+quite a lot of activity. What follows here is relentless pressure by white,
+transition from one advantageous position to another, until black finally
+cracks.}  8. a4 b4 { [%cal Gb1d2]}  9. Nfd2 { Nbd2 slightly more popular, but
+Nfd2 has better statistics}  9... c6 10. Nxc4 Qxd4 11. Rd1 Qc5 { [%cal
+Gb1d2,Gc1e3]}  12. Be3 Qh5 13. Nbd2 { Most popular [%cal Gf6g4]}  13... Nd5
+$146 ( 13... Ng4 { Maybe not the best}  14. Nf3 Nxe3 15. Nxe3 a5 16. Nd4 Ba6
+17. Bf3 Qc5 18. Qxc5 Bxc5 19. Rac1 Be7 20. Nxc6 Nxc6 21. Rxc6 )14. Nb3 Nxe3 15.
+Nxe3 { The problem for black is now clumsy Q-side development[%csl
+Ya8,Yb8,Yc8][%cal Rc2c6,Rg2c6,Gd1d8,Ra5c6,Rb3a5]}  15... a6 { Idea here is to
+try to untangle and get Q-side developed. Also, a6 has two ideas behind it:  (
+1 )  not being a target for Nxa5 later; and  ( 2 )  control b5 after c5. [%cal
+Ga8a7,Gc8b7,Gc6c5]}  16. Nc4 { Enabling Na5 [%cal Rb3a5]}  16... Ra7 17. Rac1 {
+[%cal Rc2c6]}  17... c5 { Now b4 is finally protected}  18. Nba5 Qg5 { This is
+a bit of a non-move, acknowledging that the Q-side is stuck. Green marks the
+moves black would usually want to play. However, maybe here was the time to do
+something little more radical than wait. [%cal
+Gc8b7,Gb8c6,Ra5c6,Ra5b7,Rg2b7][%csl Rb7,Rc6]}  ( 18... Rc7 19. Rd3 Nc6 20. Nxc6
+)( 18... Rd7 19. Rxd7 Bxd7 ( 19... Nxd7 20. Nc6 Bf6 21. Bf3 Qg5 22. Rd1 Qg6 23.
+Be4 Qh5 24. Kg2 Kh8 25. a5 )20. Rd1 )( 18... Qg6)( 18... Rd8 19. Rxd8+ Bxd8 20.
+Rd1 Bxa5 21. Nxa5 Qg5 22. Rd6 Rc7 23. Qd1 Nd7 24. Rc6 Rxc6 25. Nxc6 c4 26. Qd6
+Qc1+ 27. Bf1 h6 28. Qxb4 )( 18... Bd7 19. b3 Rc7 20. Qd3 Rd8 21. Qe3 Be8 22.
+Qf4 Rcd7 23. Rxd7 Bxd7 24. e3 )19. h4 Qf6 20. Qe4 Rc7 ( 20... Rd8 21. Nc6 Bb7
+22. Nxe7+ Qxe7 23. Qe5 Bxg2 24. Kxg2 Rxd1 25. Rxd1 Nd7 26. Qd6 Qxd6 27. Rxd6
+Kf8 28. Kf3 )21. Rd3 g5 ( 21... Kh8 22. b3 Kg8 23. Rcd1 Kh8 24. Rf3 Qh6 25. Qe5
+Rd7 26. Rfd3 Rxd3 27. Rxd3 Qc1+ 28. Bf1 Nd7 29. Qc7 Bf6 30. Nc6 a5 31. Na7 Ba6
+32. Rxd7 )22. h5 Qg7 23. h6 { Leela's signature move: the fawn pawn. Note that
+the fawn can't be touched.[%csl Ye5][%cal Re4e5,Re5b8,Yg7h6,Gg7e5]}  23... Qf6
+( 23... Qxh6 24. Qe5 Rd7 25. Qxb8 )24. b3 { Solidifying move. With such a move,
+however, one needs to pay attention that Na5 does not get trapped. A back-up
+plan with yellow. [%cal Yc4e5,Ya5c4]}  24... Bd7 25. Qe3 g4 26. Rcd1 Be8 {
+Curiously, black is out of good moves.}  27. Kh2 { Now the threat is to exploit
+the g-file with the rook. [%cal Gd1h1,Rh1h5,Yh2g1]}  27... Qg5 { To parry the
+threat, black decides offer Q exchange.}  ( 27... Kh8 28. Ne5 Qf5 29. Qf4 Qxf4
+( 29... Qh5+ 30. Kg1 Qf5 31. Qxf5 exf5 )30. gxf4 f6 31. Nec4 Bg6 32. R3d2 Rg8
+33. Kg3 Bf8 34. e3 Bxh6 35. Rd8 Re7 36. Nb7 Rxd8 37. Rxd8+ Re8 38. Rxe8+ Bxe8
+39. Nxc5 Bf7 40. Bb7 )( 27... Bd7 28. Ne5 Be8 29. Nxg4 )( 27... Rc8 28. Rd6 (
+28. Qe4 Qxh6+ 29. Kg1 Rc7 30. Qxg4+ Qg5 31. Qxg5+ Bxg5 32. Rd6 )28... Bxd6 29.
+Rxd6 Rd8 30. Rxd8 Qxd8 31. Qe5 f6 32. Qxe6+ Bf7 33. Qxg4+ )( 27... Ra7 28. Nb7
+Qg5 29. Qxg5+ Bxg5 30. Nxc5 Rc7 31. Ne4 Bxh6 32. Nf6+ Kg7 33. Nxe8+ Rxe8 34.
+Rd4 )28. Qf4 { White forces Q exchange with better terms. The Q exchange must
+be accepted.}  ( 28. Qxg5+ Bxg5 29. Rd6 Bxh6 30. Rb6 Bd7 31. Ne5 Bg7 32. Nac4
+)28... Qxf4 ( 28... Rc8 29. Qxg5+ Bxg5 30. Rd6 $16 Bxh6 31. Rb6 Bd7 32. Rb7 Be8
+33. Nb6 )( 28... Qh5+ 29. Kg1 e5 30. Nxe5 Bg5 31. Qf5 Qxh6 32. Nxg4 Qg6 33. Qe5
+)( 28... Rd7)29. gxf4 { f4 controls now two important squares. [%cal
+Rf4g5,Rf4e5][%csl Rg5,Re5]}  29... Nd7 30. Nc6 Bh4 31. Kg1 { The threat was
+more important than the implementation. Now its time to get back and protect
+the f2 pawn.}  31... Nf6 32. N6e5 Nh5 33. e3 g3 34. f3 $1 { Another beautiful
+move, stopping blacks ideas of counterplay. Now the two pieces on the rim look
+a bit like dummies.[%csl Rh5,Rh4]}  34... Be7 35. Nd7 Bxd7 36. Rxd7 Rfc8 { Rxd7
+would leave in the collapse of black's position.}  ( 36... Rxd7 { Example line
+for Rxd7}  37. Rxd7 Re8 38. Ra7 Bf8 39. Rxa6 Bxh6 40. f5 { [%cal Ra6h6]}  40...
+Rd8 41. fxe6 Rd1+ 42. Bf1 fxe6 43. Rxe6 Bf8 44. Kg2 Ng7 45. Rc6 Nf5 46. Be2 Ra1
+47. Rf6 Ng7 { [%cal Rg7h5,Rh5g3,Rh5f6]}  48. Nb2 Be7 49. Bc4+ Kh8 50. Rf7 Ra2
+51. Kxg3 Rxb2 52. f4 Rd2 53. Kf3 Rd7 54. e4 )37. Nb6 { Now forcing the matter} 
+37... Rxd7 38. Rxd7 Re8 39. Bf1 Nf6 { An idea for white is now to pressure
+e6/f7 pawns. Alternatively, Ra7 to claim a6, and Kg2 to take g3 can be done at
+leisure. Finally, if e6 can be deflected, then Nd5 is strong. But h6 is now
+undefendable. [%cal Gf1c4,Gf4f5,Rb6d5,Rd7e7,Rd5e7,Yd7a7,Ya7a6,Yg1g2,Yg2g3][%csl
+Rh6]}  40. Rb7 Nd5 41. Nc4 Bf8 42. Kg2 { [%cal Yg2g3]}  42... Bxh6 { [%csl
+Rh6]}  43. Kxg3 { [%csl Yg3]}  43... Bf8 44. e4 Ne7 45. Nd6 { [%cal
+Gd6f7,Gf4f5,Gf1c4,Gb7f7]}  45... Ra8 46. Rd7 { Small piece improvement,
+ensuring that the rook controls the open d-file after maybe some variations.} 
+46... a5 { Black is running out of moves.}  47. Bc4 { [%cal Gc4f7,Gd6f7,Gd7f7]}
+ 47... Nc8 { Desperate attempt to remove some attackers.}  48. Nxc8 Rxc8 49.
+Ra7 { [%cal Ya7a5]}  ( 49. f5 Rc7 50. Rxc7 Bd6+ 51. f4 Bxc7 52. fxe6 fxe6 53.
+Bxe6+ Kg7 54. e5 c4 55. Bxc4 Kg6 56. Kg4 h5+ 57. Kf3 Bb6 58. Be2 Ba7 59. Ke4 h4
+60. Bf1 Bc5 61. f5+ )49... Bd6 { Temporarily preventing f5[%cal Rd6g3]}  50.
+Rxa5 Kf8 51. e5 Bc7 { Note that Be7 was not any better}  ( 51... Be7 52. Ra7
+Ke8 { [%csl Ge8,Gc4]}  53. Ba6 Rb8 54. Bb5+ Kf8 55. Bc4 Ke8 56. a5 Kd8 57. a6
+h6 58. f5 exf5 59. Bxf7 Bf8 60. Bc4 h5 61. Rh7 h4+ 62. Kh3 Rc8 63. a7 Ra8 64.
+Bd5 )52. Rxc5 Ke7 53. a5 Kd8 54. a6 Bb6 55. Rb5 Ba7 56. f5 { Finally going for
+the f7 pawn. In OCB endings, it is important to achieve 2 passers with some
+distance to make it impossible for the bishop to stop both. This achieves it.
+[%cal Gf5e6,Gc4f7]}  56... Rb8 57. Ra5 ( 57. Rxb8+ Bxb8 58. f4 ( 58. fxe6 Bxe5+
+59. f4 )58... Kc8 59. fxe6 fxe6 60. Bxe6+ Kd8 61. Bc4 )57... exf5 58. Bxf7 {
+[%cal Gc4f7]}  58... Bb6 { [%cal ]}  59. Ra2 ( 59. Rb5 { The natural-looking
+Rb5 throws the game away due to simple tactics.[%cal Rb5b8,Rb5b4]}  59... Bf2+
+60. Kxf2 Rxb5 )59... Rc8 60. Kf4 h5 61. Kxf5 { The rest is simple technique.} 
+61... Rc7 62. Bxh5 Rh7 63. Bg4 Rc7 64. Ra4 Ra7 65. Rxb4 Rxa6 66. f4 ( { Faster
+way to mate } 66. Ra4 Ra5 67. Rxa5 Bxa5 68. Ke6 Ke8 69. f4 Bb4 70. f5 Kf8 71.
+f6 Be1 72. Bh5 Bd2 73. Kd5 Bc3 74. b4 Bxb4 75. e6 Ba3 76. Kc6 Be7 77. fxe7+
+Kxe7 78. Bf7 Kf6 79. Kd6 Kf5 80. e7 Ke4 81. e8=Q+ Kd3 82. Qe1 Kc2 83. Qe3 Kb2
+84. Qd2+ Kb1 85. Be6 Ka1 86. Qc1# )66... Bc5 67. Rc4 Bf2 68. Ke4 Rg6 69. Kf3
+Bh4 70. b4 Ra6 71. Bf5 Be1 72. b5 Ra3+ 73. Kg4 Rg3+ 74. Kh5 Ba5 75. Ra4 Bb6 76.
+Bg4 Ke8 77. Kg5 Bd8+ 78. Kf5 Bb6 79. Ra6 Bf2 80. Bh5+ Ke7 81. Re6+ Kd7 82. Be8+
+Kc7 83. Rc6+ Kb8 84. Rc4 Ka7 85. e6 Rg7 86. Ke5 Bh4 87. f5 Be7 88. Bg6 Bf8 89.
+Rc6 Rb7 90. Kf6 Be7+ 91. Kg7 Ba3+ 92. Kh6 Rxb5 93. f6 Bf8+ 94. Kh7 Rb7+ 95. Bf7
+Ba3 96. Rc2 Kb6 97. Kg6 Kb5 98. Be8+ Kb6 99. Bd7 Rc7 100. Rxc7 Kxc7 101. Kf7 {
+Leela is not effective in converting endgame wins, since most moves are equally
+winning. The NN evaluation finds winning positions, but not the quickest wins.
+Leela also was not provided with the SyZyGy DTZ files  ( only WDL ) , since
+6-man TB positions are usually adjudicated in TCEC.}  101... Bc5 102. e7 Kxd7
+103. e8=Q+ Kd6 104. Kg8 Kd5 105. Qa8+ Kd4 106. Qc8 Bb4 107. Qd7+ Kc3 108. Qe8
+Kd4 109. Qf7 Kc3 110. Qg7 Bc5 111. Qh8 Kc4 112. Qh7 Kc3 113. Qg7 Kc4 114. Qh8
+Bd4 115. Qh7 Bc5 116. Qg6 Kc3 117. Qf7 Bd6 118. Qe8 Bc5 119. Kg7 Kd3 120. Kg6
+Kd4 121. Kf5 Bb4 122. f7 Kc4 123. Qg8 Kb5 124. Qc8 Bc5 125. Qb8+ Kc4 126. Qa8
+Bb4 127. Qa7 Kd3 128. Qa6+ Kd4 129. Qa8 Kc4 130. f8=N Kd3 131. Ng6 Kd4 132. Nf4
+Be1 133. Qa7+ Kc4 134. Qb7 Bc3 135. Qc8+ Kb3 136. Qd7 Bh8 137. Qe8 Bc3 138.
+Qf7+ Kb4 139. Qg8 Be1 140. Qh7 Bd2 141. Qg6 Kc5 142. Qe8 Kd4 143. Qf7 Kc3 144.
+Qg8 Be1 145. Qh7 Bd2 146. Qg6 Kd4 147. Qe8 Kc5 148. Qa8 Be1 149. Qa7+ Kb5 150.
+Qb7+ Kc4 151. Qc7+ Kb5 152. Qd7+ Kb4 153. Qe7+ Kb3 154. Qxe1 Kc4 155. Qe8 Kc5
+156. Qd8 Kc4 157. Qf8 Kb5 158. Qc8 Kb6 159. Qd8+ Kc5 160. Qe8 Kc4 161. Qf7+ Kb5
+162. Qg7 Kc6 163. Qh7 Kb5 164. Qh6 Kc5 165. Qh5 Kd4 166. Qh4 Kc3 167. Qh3+ Kc2
+168. Qh8 Kb3 169. Qb8+ Kc4 170. Qa8 Kc3 171. Qb7 Kd4 172. Qa7+ Kc3 173. Qa6 Kb4
+174. Qb6+ Kc4 175. Qc7+ Kb4 176. Qd7 Kc5 177. Qe7+ Kc4 178. Qd8 Kc3 179. Qd7
+Kc4 180. Qe7 Kc3 181. Ke5 Kc4 182. Kd6 Kd4 183. Qd8 Ke4 184. Qf8 Kd4 185. Qc8
+Ke4 186. Qd7 Kxf4 187. Qc8 Ke4 188. Qd8 Kf4 189. Qb8 Ke4 190. Qa7 Kf4 191. Qa6
+Ke4 192. Qa5 Kf4 193. Qa4+ Ke3 194. Qa8 Kf4 195. Kd5 Kf5 196. Qa7 Kf6 197. Qb7
+Kf5 198. Qb8 Kf6 199. Kd6 Kf5 200. Qa8 Kf4 201. Ke6 Ke3 202. Ke5 Kd3 203. Qa7
+Kc3 204. Qb8 Kc4 205. Kd6 Kd4 206. Qe8 Kc3 207. Kc5 Kc2 208. Kc4 Kd2 209. Qe7
+Kc1 210. Kc3 Kd1 211. Qe8 Kc1 212. Qe1#  1-0
+

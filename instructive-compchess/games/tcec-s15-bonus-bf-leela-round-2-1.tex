@@ -1,0 +1,393 @@
+%% skiminki's computer chess studies
+%% Copyright (C) 2019 Sami Kiminki
+%%
+%% This program is free software: you can redistribute it and/or modify
+%% it under the terms of the GNU General Public License as published by
+%% the Free Software Foundation, either version 3 of the License, or
+%% (at your option) any later version.
+%%
+%% This program is distributed in the hope that it will be useful,
+%% but WITHOUT ANY WARRANTY; without even the implied warranty of
+%% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%% GNU General Public License for more details.
+%%
+%% You should have received a copy of the GNU General Public License
+%% along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+\chessgame{LCZero v0.21.1-nT40.T6.532}{Bluefish Dev}%
+          {TCEC S15 Bonus: Bluefish vs Leela Jhorthos}%
+          {E05 Catalan, Open, Classical line}%
+          {2019-04-28}
+
+Following concepts exemplified:
+\begin{enumerate}
+\item
+\end{enumerate}
+
+The engines started play from the usual start position.
+
+\mainline{1. d4  Nf6 2. c4 e6 3. g3 d5 4. Bg2 Be7 5. Nf3 O-O 6. O-O dxc4
+  7. Qc2 b5?!}
+
+\chessboard
+
+Typical play here is \movecomment{7... a6,} instead. Trying to hold on
+to c4 allows white to get quite a lot of activity.
+
+\mainline{8. a4 b4 9. Nfd2}
+
+\movecomment{9. Nbd2} slightly more popular, but \movecomment{9. Nfd2}
+has better statistics for white. The merit of the move in the game is
+that it unblocks the bishop's vision, adding pressure towards a8.
+
+Black has here three options to protect the
+rook. \movecomment{9... Nd5} gives up the pawn back and allows black
+to develop the queenside. \movecomment{9... b3 10. Qxc4 Ba6 11. Qxb3}
+and either \movecomment{11... c6} and black will get one pawn back, or
+\movecomment{11... Nd5} for trading one pawn for better development. A
+third and the most popular option was played in the game, postponing
+the resolution of the queenside development.
+
+\mainline{9... c6 10. Nxc4 Qxd4 11. Rd1 Qc5 12. Be3 Qh5 13. Nbd2 Nd5!?\novelty}
+
+\chessboard
+
+\movecomment{13... Ng4} was the most popular move. This move has the
+merit over the played move that it effectively forces
+\movecomment{14. Nf3} or \movecomment{14. Nf1} in order to stop the
+mate threat, unless white decides to weaken the king-side pawn
+structure by \wmove{h3} or \wmove{h4.} This deflects the knight from
+the d2 square.
+
+\movecomment{13... Nd5} would make more sense if the purpose was to
+block the g2-bishop eyeing towards the black's queen-side
+corner. However, the intention was to trade the knight with the
+bishop.
+
+\mainline{14. Nb3 Nxe3?! 15. Nxe3}
+
+\chessboard[pgfstyle=straightmove,
+  color=green, markmoves={d1-d8},
+  color=red, markmoves={c2-c6, g2-c6},
+  pgfstyle=knightmove, markmoves={b3-a5, a5-c6}]
+
+Now the small subtlety of playing \movecomment{13... Nd5} instead of
+\movecomment{13... Ng5} becomes obvious: black is going to have some
+serious questions to answer on developing the queen side, as the c6
+pawn is starting to become a liability. Further, white has gained the
+d-file, thwarting development ideas such as \wmove{Bd7} with
+\wmove{Na6} for now. So, black goes with another typical development
+idea in Catalan: push the a-pawn, play \wmove{Ra7}, and then untangle
+with moves such as \wmove{Bg7} and \wmove{c5}.
+
+\mainline{15... a6}
+
+Now move \wmove{Ra7} is enabled. The move \movecomment{15... a6} over
+the move \movecomment{15... a5} has the following two benefits: (1)
+The a-pawn will not become a target for a later
+\wmove{Nxa5,} and (2) the pawn controls the b5 square after \wmove{c5.}
+
+\mainline{16. Nc4 Ra7 17. Rac1 c5 18. Nba5}
+
+\chessboard[color=red!30, pgfstyle=color,
+  colorbackfields={a8,b7,c6,d6,b6},
+  color=yellow!50, colorbackfields={d7},
+  color=blue, pgfstyle=straightmove, markmoves={c4-b6, c4-d6},
+  color=red, pgfstyle=straightmove, markmoves={c2-c5}]
+
+The b4-pawn is now finally protected, but black's problems are still
+far from over. The black queen-side is a minefield due to white's
+control, and the d7-square is a bottleneck for black
+development. Further, should the e7-bishop move, white is ready to
+jump the c4-knight exposing the threat to take the c5-pawn.
+
+Therefore, it is no wonder that it is already getting difficult to
+find any useful moves for black:
+
+\begin{enumerate}[label=(\alph*)]
+\item \movecomment{18... Rc7} does not help development, since the c6
+square is already attacked twice by white. Similarly, a natural
+move \movecomment{18... Bg7} cannot be played.
+\item \movecomment{18... Qg6} only asks white to make another
+developing move such as \movecomment{19. Rd3/e4/Be4}.
+\item \movecomment{18... Rd1} allows white to practically
+force \movecomment{19. Rxd8+ Bxd8 20. Rd1 Bxa5 21. Nxa5 Qg5 22. Rd6
+Rc7 23. Qd1 Nd7 24. Rc6 Rxc6 25. Nxc6.} The
+\movecomment{26... c4} move here would be met with \movecomment{27. Qd6}
+threatening to either win a piece by \wmove{Ne7+} or a pawn
+by \wmove{Qxb4} while still keeping black's queenside development
+cumbersome.
+\item \movecomment{18... Bd7} with a possible
+continuation \movecomment{19. b3 Rc7 20. Qd3 Rd8 21. Qe3 Be8 22. Qf4
+Rcd7 23. Rxd7 Bxd7 24. e3} threatening \wmove{Qc7}, for instance.
+\end{enumerate}
+
+Black simply does not seem to be able to find any useful counterplay,
+so black decided to play a semi-waiting queen move, reinforcing the d8
+square.
+
+\mainline{18... Qg5 19. h4! Qf6}
+\chessboard
+
+As black is unable to make progress, white is now starting to improve
+her position. The move \wmove{h4} not only restricts the queen, but it
+also signals white's intention to shift the play in the
+king-side. Often such ideas are useful when one side has better access
+to squares.
+
+\mainline{20. Qe4 Rc7 21. Rd3 g5}
+
+Black was soon forced to do something. If black would continue to play
+waiting moves, then white would soon break black's position. An
+example line \variation{21... Kh8 22. b3 Kg8 23. Rcd1 Kh8 24. Rf3 Qh6
+25. Qe5} with unparriable threats. For example: \movecomment{25...
+Rd7 26. Rfd3 Rxd3 27. Rxd3 Qc1+ 28. Bf1 Nd7 29. Qc7 Bf6 30. Nc6 a5
+31. Na7 Ba6 32. Rxd7} with no hope for black.
+
+\mainline{22. h5! Qg7 23. h6!!}
+\chessboard
+
+With the h-pawn moves, white continues to strangle black's position,
+and begins to threaten a king-side attack. Note that the h6-pawn
+cannot be taken as black queen must be ready to stop \wmove{Qe5}, as
+that would win a piece due to the skewer (\movecomment{23... Qxh6??
+24. Qe5 Rd7 25. Qxb8).}
+
+\mainline{23... Qf6 24. b3}
+
+Solidifying move by white and preventing potential tactics
+by \bmove{b3}. Note that often with such moves, white needs to pay
+attention not to trap pieces, as b3 was the natural escape square for
+the a5-knight. However, here white could simply move the c4-knight
+somewhere to provide another escape square, should the need arise.
+
+\mainline{24... Bd7 25. Qe3 g4 26. Rcd1 Be8 27. Kh2}
+\chessboard
+
+The king move is a subtle move in this complex position. Black is now
+almost in a Zugswang where it would be preferable not to make a move
+at all. The king move is also preparatory to avoid tempo loss
+by \wmove{Kh8/Rg8+} in some variations after both the g-pawns have
+moved to other files, as well as to prepare Rh1 to protect the h6-pawn
+with possible rook lift ideas. Finally, \wmove{Kh2}
+prepares \wmove{Kg3} to attack the g4-pawn should the opportunity
+arise. Let us review some of black's choices:
+
+\begin{enumerate}[label=(\alph*)]
+\item \movecomment{27... Qf5} would essentially transpose to the game
+continuation after \movecomment{28. Qf4}
+\item \movecomment{27... Kh8 28. Ne5 Qf5 29. Qf4 Qxf4 30. gxf4} and
+white maintains the advantage with a continuation such
+as \movecomment{30... f6 31. Nec4 Bg6 32. R3d2 Rg8 33. Kg3 Bf8 34. e3
+Bxh6 35. Rd8 Re7 36. Nb7 Rxd8 37. Rxd8+ Re8 38. Rxe8+ Bxe8 39. Nxc5.}
+Note that a move \movecomment{29... Qh5+} would not save the day,
+since \movecomment{30. Kg1 Qf5 31. Qxf5 exf5} would just leave white
+with a better pawn structure with otherwise similar prospects.
+\item \movecomment{27... Bd7 28. Ne5 Be8 29. Nxg4} and white simply
+wins a free pawn.
+\item \movecomment{27... Ra7} followed by, \emph{e.g.}, \movecomment{28. Qe4 Qxh6+
+29. Kg1 Rc7 30. Qxg4+ Qg5 31. Qxg5+ Bxg5 32. Rd6} and white gets a
+strong foothold into black's territory, renewing the question on the
+queen-side weaknesses. Also, the exchange sacrifice
+after \movecomment{28. Rd6 Bxd6 29. Rxd6 Rd8 30. Rxd8 Qxd8 31. Qe5 f6
+32. Qxe6+} looks interesting with good compensation, although probably
+not necessary to take a risk.
+\item \movecomment{27... Ra7 28. Nb7 Qg5 29. Qxg5+ Bxg5 30. Nxc5 Rc7
+31. Ne4 Bxh6 32. Nf6+ Kg7 33. Nxe8+ Rxe8 34. Rd4} does not look very
+attractive, either.
+\end{enumerate}
+
+None of the options look particularly good, so black went with the
+straightforward queen exchange.
+\mainline{27... Qg5 28. Qf4!}
+
+White does not exchange the queen immediately, but forces better
+terms. The exchange on f4 square prevents black to get into the game,
+which \variation{28. Qxg5+ Bxg5 29. Rd6 Bxh6 30. Rb6 Bd7 31. Ne5 Bg7}
+would have allowed.
+
+\mainline{28... Qxf4}
+
+Black is forced to exchange the queens on white's terms. Note that
+curiously, black cannot make a waiting move \movecomment{28... Rc8}
+asking again to exchange the queens on the g5 square. The sequence
+after \movecomment{29. Qxg5} no longer works because the
+move \wmove{Bd7} is no longer possible because the rook had
+moved. Also, the intermediate queen check is no good either, because
+after \variation{28... Qh5+ 29. Kg1 e5 30. Nxe5 Bg5 31. Qf5 Qxh6
+32. Nxg4 Qg6 33. Qe5} black simply drops a piece under white's
+threats.
+
+\mainline{29. gxf4}
+\chessboard[color=red!30, pgfstyle=color,
+  colorbackfields={e5,g5},
+  color=black, pgfstyle=straightmove, markmoves={f4-e5, f4-g5}]
+
+The pawn now controls two important squares: e5 provides an anchor
+point for a knight, and g5 protects indirectly the h6-pawn by
+preventing \wmove{Bg5}.
+
+\mainline{29... Nd7 30. Nc6 Bh4 31. Kg1}
+The threat was more important than the execution. Now its time to get
+back and protect the f2-pawn.
+
+\mainline{31... Nf6 32. N6e5 Nh5 33. e3 g3}
+
+Black is trying to create counterplay by trying to open the g-file and
+repositioning minor pieces in the h-file. However, white has a simple
+answer:
+
+\mainline{34. f3!}
+\chessboard[color=yellow!50, pgfstyle=color, colorbackfields={h4,h5}]
+
+White simply makes black's own pawn a shield for the potential attack
+on the g-file, claiming that the pawn is rather weak. Now the black
+minor pieces on the h-file are irreparably mispositioned, and white
+can concentrate again on the queen-side. This time black has no answer
+to prevent white's penetration with the rooks.
+
+\mainline{34... Be7 35. Nd7! Bxd7 36. Rxd7 Rfc8 37. Nb6! Rxd7 38. Rxd7
+Re8}
+
+\chessboard[
+    pgfstyle=straightmove, color=green, markmoves={g2-f1, f1-c4, f4-f5},
+    color=blue, markmoves={g1-g2, g2-g3},
+    color=yellow, markmoves={d7-a7, a7-a5},
+    color=red, markmoves={d6-e8},
+    pgfstyle=knightmove, color=green, markmoves={b6-c4, c4-d6, d6-f7},
+]
+
+White has now multiple pieces for the plan to finish the game:
+\begin{enumerate}[label=(\alph*)]
+\item The rook can claim the a5-pawn, creating a passed pawn for
+white. The cost is some time. (Yellow arrows)
+\item The king can march to g2 after the bishop has moved. Then, if
+the black knight moves, the g3 pawn can be taken. (Blue arrows)
+\item The knight can move to d6 driving \wmove{Re8} away, allowing the
+white rook to add additional pressure on f7. The bishop can reposition
+to c4, and the pawn can move to f5 adding even more pressure to the
+e6/f7 squares. This should allow white to create passed connected
+passers on e/f-files. (Green arrows)
+\end{enumerate}
+Meanwhile, white's h6-pawn has now become weak and cannot be
+protected. Some precision is still required.
+
+\mainline{39. Bf1 Nf6 40. Rb7 Nd5 41. Nc4 Bf8 42. Kg2 Bxh6 43. Kxg3}
+The king has now claimed the g3 pawn. Note that \movecomment{40. Ra7}
+would probably have been slightly more precise, although it does not
+matter.
+
+\mainline{43... Bf8 44. e4 Ne7 45. Nd6 Ra8 46. Rd7}
+
+A waiting move to ask black to move again, and to prevent the black to
+move \bmove{Rd8} with tempo on the knight.
+
+\mainline{46... a5 47. Bc4}
+
+\chessboard[pgfstyle=straightmove, color=green, markmoves={d7-f7, c4-f7},
+            markmoves={d6-f7, f4-f5}]
+
+Now focusing on the f7 pawn with f4 pawn waiting to be moved.
+
+\mainline{47... Nc8 48. Nxc8 Rxc8}
+
+The pawn move f5 is now temporarily discouraged due to
+tactics: \variationcurrent{49. f5 Rc7 50. Rxc7 Bd6+ 51. f4 Bxc7.}
+However, this would not be a disaster, since
+after \movecomment{52. fxe6 fxe6 53. Bxe6+ Kg7 54. e5} the
+opposite-colored bishop ending would still be winning for
+white. White's connected passed pawns and white king's access to
+black's a-b-c pawns are strong enough to win the game. A bishop cannot
+usually stop attack on both sides of the board, since one side can
+deflect the bishop while the other side decides the game.
+
+However, white did not go into such complications, and simply switched
+to taking the a5-pawn first and then resolving the pin by moving the
+e4-pawn before pushing the f-pawn.
+
+\mainline{49. Ra7 Bd6 50. Rxa5 Kf8 51. e5}
+\chessboard
+
+Black has no good squares for the bishop. \wmove{Bb8} would lose
+quickly to \wmove{Ra8} pinning, and then white pushing the a-pawn.
+
+\wmove{51... Be7} would postpone the game by some moves with the
+following possible continuation: \movecomment{52. Be7 52. Ra7 Ke8
+53. Ba6! Rb8 54. Bb5+ Kf8 55. Bc4.} Note the
+move \movecomment{53. Ba6!}. It drives the rook away from the
+c8-square, forcing \bmove{Kf8} after the check. The king cannot come
+to d8-square after \bmove{Rd8} since it's already occupied, or
+after \bmove{Rb8} since then white would play \wmove{Rb7+} with reveal
+check, winning the rook.
+
+So, black sacrificed the c5-pawn in order to be able to block the
+a-pawn with a bishop.
+
+\mainline{51... Bc7 52. Rxc5 Ke7 53. a5 Kd8 54. a6 Bb6 55. Rb5 Ba7
+56. f5}
+\chessboard
+
+White is now finally going after the f7-pawn. In opposite-color bishop
+endings, it is important to have two passed pawns with some distance
+to make it impossible for the bishop to stop both.
+
+\mainline{56... Rb8 57. Ra5}
+White could have also exchanged the rooks. The rest is simple
+technique.
+
+\mainline{57... exf5 58. Bxf7 Bb6 59. Ra2}
+The final pitfall was the natural-looking \wmove{Rb5}. This would have
+blundered the win away to simple tactics: \variation{59. Rb5 Bf2+
+60. Kxf2 Rxb5} with a disappointing draw. But now the rest is simple
+technique.
+
+\mainline{59... Rc8 60. Kf4 h5 61. Kxf5 Rc7 62. Bxh5 Rh7 63. Bg4 Rc7
+64. Ra4 Ra7 65. Rxb4 Rxa6}
+
+\chessboard
+
+A quick way to force mate would have been: \variationcurrent{66. Ra4
+Ra5 67. Rxa5 Bxa5 68. Ke6 Ke8 69. f4 Bb4 70. f5 Kf8 71. f6 Be1 72. Bh5
+Bd2 73. Kd5 Bc3 74. b4 Bxb4 75. e6 Ba3 76. Kc6 Be7 77. fxe7+ Kxe7
+78. Bf7 Kf6 79. Kd6 Kf5 80. e7 Ke4 81. e8=Q+ Kd3 82. Qe1 Kc2 83. Qe3
+Kb2 84. Qd2+ Kb1 85. Be6 Ka1 86. Qc1\mate}
+
+However, in this game, Leela did not have the distance-to-zero (DTZ)
+tablebase files available and was on her own after reaching the
+winning position as per the win-draw-loss (WDL) files. As is
+characteristic to the current neural network (NN) engines, the endgame
+was not concluded quickly. The NN engines are simply interested in
+winning the game, not winning the game quickly.
+
+\styleB
+\mainline{
+66. f4 Bc5 67. Rc4 Bf2 68. Ke4 Rg6 69. Kf3 Bh4 70. b4 Ra6 71. Bf5 Be1
+72. b5 Ra3+ 73. Kg4 Rg3+ 74. Kh5 Ba5 75. Ra4 Bb6 76. Bg4 Ke8 77. Kg5
+Bd8+ 78. Kf5 Bb6 79. Ra6 Bf2 80. Bh5+ Ke7 81. Re6+ Kd7 82. Be8+ Kc7
+83. Rc6+ Kb8 84. Rc4 Ka7 85. e6 Rg7 86. Ke5 Bh4 87. f5 Be7 88. Bg6 Bf8
+89. Rc6 Rb7 90. Kf6 Be7+ 91. Kg7 Ba3+ 92. Kh6 Rxb5 93. f6 Bf8+ 94. Kh7
+Rb7+ 95. Bf7 Ba3 96. Rc2 Kb6 97. Kg6 Kb5 98. Be8+ Kb6 99. Bd7 Rc7
+100. Rxc7 Kxc7 101. Kf7 Bc5 102. e7 Kxd7 103. e8=Q+ Kd6
+104. Kg8 Kd5 105. Qa8+ Kd4 106. Qc8 Bb4 107. Qd7+ Kc3 108. Qe8 Kd4
+109. Qf7 Kc3 110. Qg7 Bc5 111. Qh8 Kc4 112. Qh7 Kc3 113. Qg7 Kc4
+114. Qh8 Bd4 115. Qh7 Bc5 116. Qg6 Kc3 117. Qf7 Bd6 118. Qe8 Bc5
+119. Kg7 Kd3 120. Kg6 Kd4 121. Kf5 Bb4 122. f7 Kc4 123. Qg8 Kb5
+124. Qc8 Bc5 125. Qb8+ Kc4 126. Qa8 Bb4 127. Qa7 Kd3 128. Qa6+ Kd4
+129. Qa8 Kc4 130. f8=N Kd3 131. Ng6 Kd4 132. Nf4 Be1 133. Qa7+ Kc4
+134. Qb7 Bc3 135. Qc8+ Kb3 136. Qd7 Bh8 137. Qe8 Bc3 138. Qf7+ Kb4
+139. Qg8 Be1 140. Qh7 Bd2 141. Qg6 Kc5 142. Qe8 Kd4 143. Qf7 Kc3
+144. Qg8 Be1 145. Qh7 Bd2 146. Qg6 Kd4 147. Qe8 Kc5 148. Qa8 Be1
+149. Qa7+ Kb5 150. Qb7+ Kc4 151. Qc7+ Kb5 152. Qd7+ Kb4 153. Qe7+ Kb3
+154. Qxe1 Kc4 155. Qe8 Kc5 156. Qd8 Kc4 157. Qf8 Kb5 158. Qc8 Kb6
+159. Qd8+ Kc5 160. Qe8 Kc4 161. Qf7+ Kb5 162. Qg7 Kc6 163. Qh7 Kb5
+164. Qh6 Kc5 165. Qh5 Kd4 166. Qh4 Kc3 167. Qh3+ Kc2 168. Qh8 Kb3
+169. Qb8+ Kc4 170. Qa8 Kc3 171. Qb7 Kd4 172. Qa7+ Kc3 173. Qa6 Kb4
+174. Qb6+ Kc4 175. Qc7+ Kb4 176. Qd7 Kc5 177. Qe7+ Kc4 178. Qd8 Kc3
+179. Qd7 Kc4 180. Qe7 Kc3 181. Ke5 Kc4 182. Kd6 Kd4 183. Qd8 Ke4
+184. Qf8 Kd4 185. Qc8 Ke4 186. Qd7 Kxf4 187. Qc8 Ke4 188. Qd8 Kf4
+189. Qb8 Ke4 190. Qa7 Kf4 191. Qa6 Ke4 192. Qa5 Kf4 193. Qa4+ Ke3
+194. Qa8 Kf4 195. Kd5 Kf5 196. Qa7 Kf6 197. Qb7 Kf5 198. Qb8 Kf6
+199. Kd6 Kf5 200. Qa8 Kf4 201. Ke6 Ke3 202. Ke5 Kd3 203. Qa7 Kc3
+204. Qb8 Kc4 205. Kd6 Kd4 206. Qe8 Kc3 207. Kc5 Kc2 208. Kc4 Kd2
+209. Qe7 Kc1 210. Kc3 Kd1 211. Qe8 Kc1 212. Qe1\mate}. White wins.
+

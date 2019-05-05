@@ -1,0 +1,228 @@
+%% skiminki's computer chess studies
+%% Copyright (C) 2019 Sami Kiminki
+%%
+%% This program is free software: you can redistribute it and/or modify
+%% it under the terms of the GNU General Public License as published by
+%% the Free Software Foundation, either version 3 of the License, or
+%% (at your option) any later version.
+%%
+%% This program is distributed in the hope that it will be useful,
+%% but WITHOUT ANY WARRANTY; without even the implied warranty of
+%% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%% GNU General Public License for more details.
+%%
+%% You should have received a copy of the GNU General Public License
+%% along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+\chessgame{Ethereal 10.88}{Lc0 17.11089}{CCCC 1: Rapid Rumble
+  (15|5)\\Stage 1 Round 35}{B90 Najdorf, Byrne (English) attack}%
+          {2018-09-10}
+
+Following concepts exemplified:
+\begin{enumerate}
+\item Prying lines open with pawn-and-piece attacking pawn moves
+\item The triangle of interception for pawn and king races
+\item Blocking two pawns with a knight
+\end{enumerate}
+
+The engines started play from the usual start position.
+
+\mainline{1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6}
+
+The popular Najdorf variation of the Sicilian defence.
+
+\mainline{6. Be3}
+
+The Byrne (English) attack.
+
+\mainline{6... e5 7. Nb3 Be6 8. f4}
+
+The first move to diverge from the mainlines. The move is not bad at
+all, but makes the game sharper than the most popular move,
+\movecomment{8. f3.}
+
+\mainline{8... exf4 9. Bxf4 Nc6 10. a3?!\novelty}
+
+\chessboard
+
+This is a novelty.\footnote{Lichess masters database, accessed Apr
+  2019.} The main moves here are \movecomment{10. Qe2} and
+\movecomment{10. Qd2,} preparing for long castling. This seemingly
+unnecessary move has some potential issues:
+
+\begin{enumerate}
+\item Black can play Bxb3 and white has to take with the c-pawn,
+  instead of having the additional option to take with the a-pawn.
+\item Black has later additional options to open Q-side files by
+  pushing the b-pawn.
+\end{enumerate}
+
+\mainline{10... Be7 11. Qd2 Nh5 12. Be3 Nf6 13. O-O-O O-O 14. Kb1 b5}
+\chessboard[color=red, pgfstyle=straightmove, markmoves={b5-b4}]
+
+Now exercising black's typical Najdorf plan after opposite-side
+castling. The threat is now to push \wmove{b4} and force \wmove{axb4}.
+
+\mainline{15. Nd4 Nxd4 16. Bxd4 Rb8 17. Be2 Nd7 18. Rhf1 Bg5 19. Qd3 Qe7 20. Bf2 b4}
+\chessboard
+
+Now finally pushing b4. This is a typical attacking move to pry open
+files. If the knight moves, \wmove{bxa3} will be played.
+
+\mainline{21. axb4 Rxb4 22. Qxd6 Rfb8 23. b3 Qd8 24. Nd5 Rxe4 25. Rfe1
+  Bf5 26. Kb2 Rc8 27. Bd3 Rxe1 28. Bxe1 Bg4 29. Ra1 Nc5 30. Qxd8+
+  Rxd8}
+
+\chessboard
+
+White has managed to temper black's attack. The position is still
+somewhat complicated, but should be objectively a draw.
+
+\mainline{31. Bc4 Be6 32. Rd1 Rd7 33. Bb4 Ne4 34. Kb1 Bd8 35. Rd4 Nf2
+  36. Bc5 Ng4 37. Nb4 Rxd4 38. Bxd4 Bxc4 39. bxc4 Bf6?!}
+
+\chessboard
+
+This is a dubious-looking move, offering extra options for white to
+drive the endgame into a desireable direction. The game should still
+be a draw. Black had a number of other options, such as
+\movecomment{39... Nxh2} taking the pawn, \movecomment{39... f5}
+hastening the pawn push, or \movecomment{39... Kf8} bringing the king
+to play. But since black played \movecomment{39... Bf6?!}, white has
+at least three options to choose from:
+
+\emph{Option 1 --- Deflect the knight from attacking h2, gaining a bit
+  of time.}  \variationcurrent{40. Bxf6 Nxf6.}
+
+\emph{Option 2 --- Exchange the bishop for the knight, simplifying the
+  position.}  \variationcurrent{40. h3 Bxd4 41. hxg4}. While this
+position may look a bit weird at first, white's pawns are all in the
+light squares, untouchable by the black bishop, and white has double
+passed c-pawns while black's a-passer is weak.
+
+But white decided to go with the third option: \wmove{Bg1.} This move
+has multiple purposes: (1) it protects h2; (2) it protects the next
+square for the c4-pawn; and (3) it avoids exchanging pieces. The
+dark-square bishop alone cannot support the advancement of the c-pawn,
+and the knight alone is clumsy. But the bishop and the knight
+generally work well together to control squares on the way of the
+pawn. This was also the best choice for white.
+
+\mainline{40. Bg1 Ne5 41. c5}
+
+Now is the time for black to play \wmove{Kf8}. The black king needs to
+move in time to stop the c5 pawn. Highlighted is the triangle of
+interception where the king needs to be after black's move in order to
+win the race.
+
+\chessboard[color=blue, pgfstyle=straightmove, markmoves={f8-c5, f8-c8},
+  color=red, markmoves={c5-c8},
+  color=yellow!50, pgfstyle=color, backareas={c8-c5, d8-d6, e8-e7, f8-f8},
+  pgfstyle=straightmove, color=black, markmove={g8-f8}]
+
+However, black did not play \wmove{Kf8} and black pieces alone cannot
+block or win the passed pawn. Preventing \wmove{c8=Q} will now cost a
+piece.
+
+\mainline{41... a5?? 42. c6 Bd8 43. Bd4 Bc7}
+
+Black at least gets now two pawns for the piece. Note that
+\variation{43... axb4 44. Bxe5 Kf8 45. c7 Bxc7 46. Bxc7} would have
+been even worse for black.
+
+\mainline{44. Bxe5 Bxe5 45. Na6 Bxh2 46. c7 Bxc7 47. Nxc7 f5}
+
+\chessboard
+
+Here Leela thinks she is somewhat better with black, and this
+misevaluation was probably the reason why Leela played the losing
+\bmove{41... a5??} move earlier. A beginning player might make a
+similar evaluation mistake.
+
+The king-side black pawns surely look intimidating, but this is only
+superficial. If one does not calculate and/or spot the pattern to stop
+the king-side pawns, it is plausible to think that black has time to
+march the king to support the a5-pawn, block white's passed c-pawn,
+and overrun the king-side with the pawn wall. If white king intercepts
+this plan, surely the white knight and a pawn cannot stop the black
+pawn wall?
+
+However, white has an easy plan. The g2 pawn guarantees that at least
+one black pawn will be exchanged when the black pawns march
+forward. If the knight is in time, it can stop two black pawns with
+ease with the L-shaped defensive pattern. In fact, white even has the
+time to take a small detour with the knight and take the a5, and then
+to blockade the king-side pawns.
+
+When choosing the blockading squares for the knight, it is here
+beneficial to block the black pawns as late as possible, because that
+would require the black king to move beyond the c4 pawn for support,
+and then c4 pawn would have easy time to march forward and queen.
+
+This plan is a forced win for white with the best but not difficult
+play.
+
+\mainline{48. Ne6 Kf7 49. Nd8+ Kf6 50. Nb7 a4 51. Nc5 g5 52.
+  Nxa4 h5 53. Nc5 h4 54. Kc1 g4 55. Nd3 h3 56. gxh3 gxh3}
+
+As promised, the g2 pawn was able to take one black pawn from the
+wall. Two pawns left for black.
+
+\mainline{57. c3 h2 58. Nf2}
+
+\chessboard[pgfstyle=knightmove, color=blue, markmoves={f2-h1, h1-f2}]
+
+Now the knight controls the h1 and f2 squares and the black pawns
+cannot advance through those squares without support. However, the
+king cannot offer assistance, since the c4-pawn would run.
+
+Further, it is important to note that the knight can jump freely
+between the h1 and f2 squares to lose tempi if necessary. Losing (or
+gaining) tempi is often important in king-pawn endings, and this
+ending is not an exception. With only the white king and pawn versus
+black king, this would be an easy draw.
+
+\mainline{58... Ke5 59. Kd2 Kd5 60. Kd3 Ke5 61.
+  Ke3 Kd5 62. Nh1}
+
+\chessboard
+
+The first tempo loss, basically asking black to make another
+move. However, \movecomment{62. Kd3} and losing the tempo later was
+equally good.
+
+Black has here one last attempt to trick a draw, although this variant
+was not played: \variationcurrent{62... f4+ 63. Kxf4?? Kc4 64. Kg3
+  Kxc3 65. Kxh2} draw. The correct move for white was
+\movecomment{63. Kd3!} letting the knight to stop the f-pawn, and not
+allowing the king to stray away from the all-important c-pawn.
+
+\mainline{62... Kc4 63. Kd2 Kd5 64. Kd3 f4 65. c4+ Kc5 66. Kc3 Kd6
+  67. Kd4 Kd7 68. c5 Kd8 69. c6 Kc8 70. Kc5 Kc7 71. Kb5 f3}
+
+\chessboard
+
+Black does not want to move the king, as this allows white to push
+forward with \wmove{Kc6}. But after the pawn moves are exhausted,
+black is out of options.
+
+\mainline{72. Kc5 f2 73. Nxf2 Kc8 74. Kb6 Kd8 75. c7+}
+
+\chessboard
+
+Without the knight and black pawn, \wmove{Kc8} would be a draw, since
+the only way (\wmove{Kc6}) white can protect the pawn would lead in a
+stalemate. But here white can always lose a tempo with a knight move,
+and ask black to make another move. So, black simply gives up.
+
+\mainline{75... Kd7 76. Kb7 Ke6 77. c8=Q+ Ke5 78. Qh3 Kf4 79. Qxh2+
+  Kf3 80. Qh3+}
+
+Final note. Ethereal follows the quickest distance to zero in
+tablebase win positions. \movecomment{80. Kc6} would have delivered
+the mate one move earlier.
+
+\mainline{80... Kxf2 81. Kb6 Ke2 82. Kc5 Kf2 83. Kd4 Kg1 84. Kd3 Kf2
+  85. Qg4 Kf1 86. Ke3 Ke1 87. Qg1\mate}
+
+White wins.

@@ -1,0 +1,62 @@
+%% skiminki's computer chess studies
+%% Copyright (C) 2019 Sami Kiminki
+%%
+%% This program is free software: you can redistribute it and/or modify
+%% it under the terms of the GNU General Public License as published by
+%% the Free Software Foundation, either version 3 of the License, or
+%% (at your option) any later version.
+%%
+%% This program is distributed in the hope that it will be useful,
+%% but WITHOUT ANY WARRANTY; without even the implied warranty of
+%% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%% GNU General Public License for more details.
+%%
+%% You should have received a copy of the GNU General Public License
+%% along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+\documentclass[a4paper,11pt,twocolumn]{report}
+\usepackage{times}
+\usepackage{textcomp}
+\usepackage[protrusion=true,expansion=true]{microtype}
+\usepackage[LSBC1,LSBC2,LSBC4,T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{pgf}
+\usepackage{xcolor}
+\usepackage[skaknew]{chessboard,skak}
+\usepackage[shortlabels]{enumitem}
+\font\sknf=SkakNew-Figurine
+\font\sknfbx=SkakNew-FigurineBold
+\font\skndia=SkakNew-DiagramT
+
+\title{Instructive Computer Games of Chess:\\What we can learn from the beasts?}
+
+\newcommand{\abbeg}[0]{\emph{e.g.}\@}
+\newcommand{\abbie}[0]{\emph{i.e.}\@}
+\newcommand{\abbetal}[0]{\emph{et al.}\@}
+
+\newcommand{\chessgame}[5]{%
+  \begin{center}%
+     \section{\textbf{#1} -- \textbf{#2}}% participants
+     \textsf{#3}%                          event
+
+     \small{\textsc{#4}}%                  opening
+
+     \small{\emph{#5}}%                    date
+  \end{center}%
+  \styleC\newgame%
+}
+
+% notes: styleC is the nice move pair per line; styleB is the condensed format.
+
+\begin{document}
+\maketitle
+
+\chapter{Strategic Advantage}
+
+\input{games/tcec-s15-bonus-bf-leela-round-2-1.tex}
+
+\chapter{Endgame techniques}
+
+\input{games/ccc1-stage-1-35-ethereal-lc0.tex}
+
+\end{document}
