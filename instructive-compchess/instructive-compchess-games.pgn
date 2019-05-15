@@ -22,9 +22,9 @@ The Najdorf variation}  6. Be3 e5 7. Nb3 Be6 8. f4 { The first move to diverge
 from the mainlines. The move is not bad at all, but makes the game sharper than
 the most popular move, f3.}  8... exf4 9. Bxf4 Nc6 10. a3 $6 $146 { Lichess
 novelty. The main moves here are Qe2 and Qd2, preparing for long castle. This
-seemingly unnecessary move has some potential issues:   ( 1 )  Black can play
+seemingly unnecessary move has some potential issues:  (  1  )  Black can play
 Bxb3 and white has to take with the c-pawn, instead of having the additional
-option to take with tha a-pawn.   ( 2 )  Black has later additional options to
+option to take with tha a-pawn.  (  2  )  Black has later additional options to
 open some Q-side files by pushing the b pawn.[%cal Ge6b3,Gc2b3,Yb7b4,Ya3b4]} 
 10... Be7 11. Qd2 Nh5 12. Be3 Nf6 13. O-O-O O-O 14. Kb1 b5 { Now exercising
 black's typical Najdorf plan after SALC. A threat is now to push b4 and force
@@ -53,31 +53,31 @@ Bxc7 )44. Bxe5 Bxe5 45. Na6 Bxh2 46. c7 Bxc7 47. Nxc7 f5 { Here Leela thinks
 she is somewhat better with black. This misevaluation is probably due to
 visuals, as the K-side black pawns look intimidating. If one does not
 calculate, it is plausible to think that black has time to march the king to
-support the a5-pawn and overrun the king-side with the pawn wall.  However,
+support the a5-pawn and overrun the king-side with the pawn wall. However,
 white has an easy plan here. White has time to take the a5 pawn, and the knight
 can then move to blockade the Q-side pawns. The g2 pawn guarantees than at
 least one black pawn will be exchanged, and the knight can stop two black pawns
-with ease with the "L" defensive pattern.  This position is now a forced win
-for white with best play.}  48. Ne6 Kf7 49. Nd8+ Kf6 50. Nb7 a4 51. Nc5 g5 52.
-Nxa4 h5 53. Nc5 h4 54. Kc1 g4 55. Nd3 h3 56. gxh3 gxh3 { Two pawns left for
-black.}  57. c3 h2 58. Nf2 { Now the knight controls the h1 and f2 squares, and
-black pawns cannot promote alone. However, the king can offer limited
-assistance, since it also needs to watch the c-pawn.  Further, it is important
-to note that the knight can jump freely between the h1 and f2 squares to lose
-tempi. Losing  ( or gaining )  tempi is important when pushing the c-pawn to
-avoid any stalemate tricks by black. With only the white king-pawn vs black
-king, this would be a draw. [%csl Rf2,Rh1]}  58... Ke5 59. Kd2 Kd5 60. Kd3 Ke5
-61. Ke3 Kd5 62. Nh1 { The first tempo loss, requiring black to make a move.} 
-62... Kc4 ( 62... f4+ 63. Kd3 $1 ( 63. Kxf4 $4 Kc4 64. Kg3 Kxc3 65. Kxh2 {
-Draw}  )63... f3 64. Nf2 { Passing the buck back to black.}  64... Kc5 )63. Kd2
-Kd5 64. Kd3 f4 65. c4+ Kc5 66. Kc3 Kd6 67. Kd4 Kd7 68. c5 Kd8 69. c6 Kc8 70.
-Kc5 Kc7 71. Kb5 f3 { Black does not want to move the king, but is soon out of
-choice.}  72. Kc5 f2 73. Nxf2 Kc8 74. Kb6 Kd8 75. c7+ { Without the knight and
-black pawn, Kc8 would draw. But white can always lose a tempo with a knight
-move.}  75... Kd7 76. Kb7 Ke6 77. c8=Q+ Ke5 78. Qh3 Kf4 79. Qxh2+ Kf3 80. Qh3+
-{ Ethereal follows the quickest distance to zero in tablebase win positions.
-Kc6 would mate one move quicker.}  80... Kxf2 81. Kb6 Ke2 82. Kc5 Kf2 83. Kd4
-Kg1 84. Kd3 Kf2 85. Qg4 Kf1 86. Ke3 Ke1 87. Qg1#  1-0
+with ease with the "L" defensive pattern. This position is now a forced win for
+white with best play.}  48. Ne6 Kf7 49. Nd8+ Kf6 50. Nb7 a4 51. Nc5 g5 52. Nxa4
+h5 53. Nc5 h4 54. Kc1 g4 55. Nd3 h3 56. gxh3 gxh3 { Two pawns left for black.} 
+57. c3 h2 58. Nf2 { Now the knight controls the h1 and f2 squares, and black
+pawns cannot promote alone. However, the king can offer limited assistance,
+since it also needs to watch the c-pawn. Further, it is important to note that
+the knight can jump freely between the h1 and f2 squares to lose tempi. Losing 
+(  or gaining  )  tempi is important when pushing the c-pawn to avoid any
+stalemate tricks by black. With only the white king-pawn vs black king, this
+would be a draw. [%csl Rf2,Rh1]}  58... Ke5 59. Kd2 Kd5 60. Kd3 Ke5 61. Ke3 Kd5
+62. Nh1 { The first tempo loss, requiring black to make a move.}  62... Kc4 (
+62... f4+ 63. Kd3 $1 ( 63. Kxf4 $4 Kc4 64. Kg3 Kxc3 65. Kxh2 { Draw}  )63... f3
+64. Nf2 { Passing the buck back to black.}  64... Kc5 )63. Kd2 Kd5 64. Kd3 f4
+65. c4+ Kc5 66. Kc3 Kd6 67. Kd4 Kd7 68. c5 Kd8 69. c6 Kc8 70. Kc5 Kc7 71. Kb5
+f3 { Black does not want to move the king, but is soon out of choice.}  72. Kc5
+f2 73. Nxf2 Kc8 74. Kb6 Kd8 75. c7+ { Without the knight and black pawn, Kc8
+would draw. But white can always lose a tempo with a knight move.}  75... Kd7
+76. Kb7 Ke6 77. c8=Q+ Ke5 78. Qh3 Kf4 79. Qxh2+ Kf3 80. Qh3+ { Ethereal follows
+the quickest distance to zero in tablebase win positions. Kc6 would mate one
+move quicker.}  80... Kxf2 81. Kb6 Ke2 82. Kc5 Kf2 83. Kd4 Kg1 84. Kd3 Kf2 85.
+Qg4 Kf1 86. Ke3 Ke1 87. Qg1#  1-0
 
 [Event "Bonus: Bluefish vs Leela Jhorthos"]
 [Site "http://tcec.chessdom.com"]
@@ -109,13 +109,13 @@ $146 ( 13... Ng4 { Maybe not the best}  14. Nf3 Nxe3 15. Nxe3 a5 16. Nd4 Ba6
 17. Bf3 Qc5 18. Qxc5 Bxc5 19. Rac1 Be7 20. Nxc6 Nxc6 21. Rxc6 )14. Nb3 Nxe3 15.
 Nxe3 { The problem for black is now clumsy Q-side development[%csl
 Ya8,Yb8,Yc8][%cal Rc2c6,Rg2c6,Gd1d8,Ra5c6,Rb3a5]}  15... a6 { Idea here is to
-try to untangle and get Q-side developed. Also, a6 has two ideas behind it:  (
-1 )  not being a target for Nxa5 later; and  ( 2 )  control b5 after c5. [%cal
-Ga8a7,Gc8b7,Gc6c5]}  16. Nc4 { Enabling Na5 [%cal Rb3a5]}  16... Ra7 17. Rac1 {
-[%cal Rc2c6]}  17... c5 { Now b4 is finally protected}  18. Nba5 Qg5 { This is
-a bit of a non-move, acknowledging that the Q-side is stuck. Green marks the
-moves black would usually want to play. However, maybe here was the time to do
-something little more radical than wait. [%cal
+try to untangle and get Q-side developed. Also, a6 has two ideas behind it:  ( 
+1  )  not being a target for Nxa5 later; and  (  2  )  control b5 after c5.
+[%cal Ga8a7,Gc8b7,Gc6c5]}  16. Nc4 { Enabling Na5 [%cal Rb3a5]}  16... Ra7 17.
+Rac1 { [%cal Rc2c6]}  17... c5 { Now b4 is finally protected}  18. Nba5 Qg5 {
+This is a bit of a non-move, acknowledging that the Q-side is stuck. Green
+marks the moves black would usually want to play. However, maybe here was the
+time to do something little more radical than wait. [%cal
 Gc8b7,Gb8c6,Ra5c6,Ra5b7,Rg2b7][%csl Rb7,Rc6]}  ( 18... Rc7 19. Rd3 Nc6 20. Nxc6
 )( 18... Rd7 19. Rxd7 Bxd7 ( 19... Nxd7 20. Nc6 Bf6 21. Bf3 Qg5 22. Rd1 Qg6 23.
 Be4 Qh5 24. Kg2 Kh8 25. a5 )20. Rd1 )( 18... Qg6)( 18... Rd8 19. Rxd8+ Bxd8 20.
@@ -190,7 +190,7 @@ Rc6 Rb7 90. Kf6 Be7+ 91. Kg7 Ba3+ 92. Kh6 Rxb5 93. f6 Bf8+ 94. Kh7 Rb7+ 95. Bf7
 Ba3 96. Rc2 Kb6 97. Kg6 Kb5 98. Be8+ Kb6 99. Bd7 Rc7 100. Rxc7 Kxc7 101. Kf7 {
 Leela is not effective in converting endgame wins, since most moves are equally
 winning. The NN evaluation finds winning positions, but not the quickest wins.
-Leela also was not provided with the SyZyGy DTZ files  ( only WDL ) , since
+Leela also was not provided with the SyZyGy DTZ files  (  only WDL  )  , since
 6-man TB positions are usually adjudicated in TCEC.}  101... Bc5 102. e7 Kxd7
 103. e8=Q+ Kd6 104. Kg8 Kd5 105. Qa8+ Kd4 106. Qc8 Bb4 107. Qd7+ Kc3 108. Qe8
 Kd4 109. Qf7 Kc3 110. Qg7 Bc5 111. Qh8 Kc4 112. Qh7 Kc3 113. Qg7 Kc4 114. Qh8
@@ -211,4 +211,159 @@ Ke4 192. Qa5 Kf4 193. Qa4+ Ke3 194. Qa8 Kf4 195. Kd5 Kf5 196. Qa7 Kf6 197. Qb7
 Kf5 198. Qb8 Kf6 199. Kd6 Kf5 200. Qa8 Kf4 201. Ke6 Ke3 202. Ke5 Kd3 203. Qa7
 Kc3 204. Qb8 Kc4 205. Kd6 Kd4 206. Qe8 Kc3 207. Kc5 Kc2 208. Kc4 Kd2 209. Qe7
 Kc1 210. Kc3 Kd1 211. Qe8 Kc1 212. Qe1#  1-0
+
+[Event "TCEC Season 15 - Superfinal"]
+[Site "http://tcec.chessdom.com"]
+[Date "2019.05.12"]
+[Round "12.1"]
+[White "LCZero v0.21.1-nT40.T8.610"]
+[Black "Stockfish 19050918"]
+[Result "0-1"]
+[BlackElo "3587"]
+[ECO "C05"]
+[GameDuration "04:05:40"]
+[GameEndTime "2019-05-12T22:53:37.298 W. Europe Standard Time"]
+[GameStartTime "2019-05-12T18:47:57.227 W. Europe Standard Time"]
+[Opening "French"]
+[PlyCount "161"]
+[Termination "adjudication"]
+[TerminationDetails "TCEC win rule"]
+[TimeControl "7200+10"]
+[Variation "Tarrasch, closed variation"]
+[WhiteElo "3589"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. f4 c5 6. c3 Nc6 7. Ndf3 Qb6 8. g3 Be7
+( { Mainline } 8... cxd4 9. cxd4 Bb4+ 10. Kf2 g5 11. fxg5 Ndxe5 12. Nxe5 Nxe5
+13. Kg2 Nc6 14. Nf3 Bf8 15. b3 Bg7 16. Bb2 Bd7 )9. Kf2 { Last book move. This
+is a prophylaxis to avoid Bg4 with tempo after ... cxd4 cxd4. See the mainline
+8... cxd4 for details. But this move is not completely without its problems,
+and the potential pin needs to be watched. The queen on b6 is eyeing the king
+on this diagonal behind the pawns. This basically means that e5 pawn is not
+effectively protected by d4 after ... cxd4 cxd4. We'll see that position a bit
+later.[%cal Rb6f2]}  9... a5 10. a4 cxd4 $1 { This logical move has many
+upsides. First, it allows the installation of a piece in g4, as f3 will no
+longer control it. Second, d4 becomes a bit of a weak pawn. Third, white has to
+spend a tempo by moving the queen out of the pin soon. Fourth, c-file is
+opened, which should favor black due to white's king safety issues.}  11. cxd4
+Ndb8 { With a plan for Na6-b4 installing a doubly strong knight. If white
+takes, there's another knight available. [%cal Gb8a6,Ga6b4,Yc6b4]}  12. Ne2 O-O
+13. Kg2 { Avoiding the pin, which would become an issue after ... f6.}  13...
+Na6 14. Nc3 f6 15. h4 fxe5 16. dxe5 { Now black has a scary-looking pawn. [%cal
+Gd5d4]}  ( { Taking with the f-pawn would not have avoided black getting a
+passed and protected d5-pawn, if black sacrifices the exchange for N and pawn.
+} 16. fxe5 Rxf3 17. Qxf3 Nxd4 18. Qd1 )16... h6 17. Bd3 Nab4 18. Bb1 Bd7 19.
+Na2 Rac8 20. Kh3 { This little move deserves a special attention. While this
+may look like a prophylaxis, it also puts the king in the same diagonal with
+Bd7. This make e6 pawn a bit less weak, since white has to spend an extra tempo
+move the king away from the diagonal before e6 can be captured without a pin.
+However, with the king safety being questioned, being sheltered by an enemy
+pawn is probably better than leaving the king in g2. Kg2 would be vulnerable to
+d4 and check through the a8-h1 diagonal with tempo gains.}  20... Be8 21. Nxb4
+Nxb4 22. Ra3 Bc5 23. Bd2 Qa6 24. Rc3 ( { Perhaps white already needed to make a
+concession and go for the draw, although even that is not so simple anymore. }
+24. Bxb4 axb4 25. Bd3 Qa7 26. Ra1 Bh5 27. Rf1 { Must protect agaist the
+pin[%cal Rh5d1]}  27... Be3 28. Be2 { Black can still play Bxf4, but that would
+be about equal. For example:}  28... Bxf4 29. gxf4 Rxf4 30. Qd2 Rcf8 31. Kg3
+Rg4+ 32. Kh3 Re4 33. Kg3 Rg4+ { 3-fold incoming. However, this line after 28...
+Bxf4 is not forced.}  )24... b5 { The one thing that always amazes is how the
+computers often so casually allow pins and leave pieces loose or hanging. But
+of course, the computers are able to calculate through tactics. Many humans
+would understandably start looking into solidifying moves such as Bd7 to
+undermine the Qc1 pinning the bishop on c5. Instead of solidifying the position
+and trying to untangle the pins, black goes for the breakthrough.}  25. Qc1 {
+The pin [%cal Rc1c8]}  ( 25. axb5 $6 Bxb5 $36 { [%cal Rb5e2]}  )25... Qb6 26.
+Nd4 bxa4 { This move is the whole point of allowing the tactical complications.
+After the dust settles, white is left with a weak b-pawn against doubled
+a-pawns, and a passer on d5.}  27. Be3 Bd7 ( { If black wanted, there was a way
+to prevent the tactics winning exchange for white. } 27... Rc7 28. Re1 ( { To
+exemplify the drawback of 20. Kh3, had the king be somehow placed on h2,
+instead, this move would have been a clean pawn with decisive advantage, since
+... d4 is met with Rxc5 avoiding the fork. But now, Nxe6 is simply met with
+Qxe6+ and Bxe3. } 28. Nxe6)28... Na6 29. Qd2 Rb7 ( 29... Bb4 $2 30. Qd3 { [%cal
+Rd3h7]}  30... g6 { [%cal         Gc3c7]}  31. Rxc7 $16 )30. Rec1 $14 )28. Nf5
+{ Now white enters in a forcing sequence winning the exchange, but black gets
+full compensation.}  28... Bxe3 29. Ne7+ Kf7 30. Nxc8 Rxc8 31. Qxe3 d4 {
+Forcing sequence ends}  32. Qf2 ( { Alternative way to deal with the fork } 32.
+Qd2 Bc6 33. Rcc1 )32... Qb7 33. Rcc1 d3 34. h5 Rxc1 35. Rxc1 Qd5 36. Kh4 Bc6
+37. g4 Ke8 38. Rf1 Qd8+ 39. Kg3 Qd5 40. Rd1 Qb3 41. Rd2 Qc4 42. Rd1 Qb3 43. Qd2
+Be4 44. Re1 Bb7 45. Rd1 Be4 46. Kh4 Qd5 47. Qc3 Kf7 48. Qc7+ Kg8 49. Qc3 Kh7
+50. Kh3 Kg8 51. Kh4 Kh7 52. Kg3 Kg8 53. Qc8+ Kh7 54. Qc1 Qb3 55. Qd2 Kg8 56. g5
+Kf8 57. g6 Ke7 58. Kh3 Ke8 59. Kh4 Qc4 60. Kg3 Bf5 61. Qc3 { This is a
+committal move, offering the queen exchange. While the game has been
+objectively a draw or close to draw, after the queen exchange, only black could
+press on.}  61... Qxc3 62. bxc3 { It is possible that white thought that at
+this position, the d3 pawn could be somehow won, possibly by giving the
+exchange back. And then white king could stop or take the black pawns on a
+file. But the d-pawn can never be taken.}  62... Nc2 { This knight is now a
+very annoying piece. Together with the pawn and the bishop, all white king's
+access squares are covered.[%csl Re1,Re2,Re3,Re4]}  63. Kf2 { White now has a
+threat of Bxc2, and white would be just in time to stop the black pawns.} 
+63... a3 $1 { Parries the threat of Bxc2. Now black king is just in time to
+escort the a-pawns}  ( 63... Ke7 64. Bxc2 dxc2 65. Rc1 a3 66. Ke1 a2 67. Kd2
+Kd7 68. Ra1 )64. Ba2 ( 64. Bxc2 dxc2 65. Rc1 Kd7 66. Ke3 Kc6 67. Kd2 Kb5 68.
+Rxc2 Kc4 $1 ( 68... Bxc2 $4 69. Kxc2 a2 70. Kb2 a1=Q+ 71. Kxa1 { Now white
+would win, since black cannot play Kd4, and must retreat. But retreat will give
+time for white to activate the king with a simple plan of taking the a-pawn and
+pushing the c-pawn. White's key threat is f5 punching through.}  71... Kc4 72.
+f5 Kd5 73. f6 gxf6 74. g7 fxe5 75. g8=Q )69. Rc1 Kb3 70. Re1 a2 { And there's
+no way of stopping a1=Q other than giving up the rook.}  )64... Kd7 65. Bb3 Kc7
+66. Rg1 Kd7 67. Kf3 $2 { Computer analysis suggests that white had seven moves
+that prevents black making progress, but Kf3 was not one of them. We will take
+a detailed look on the defensive setup. The problem with Kf3 is that it allows
+d2 with precise tactics.}  ( { Perhaps the easiest way to setup the defenses is
+the straightforward Ba4+. } 67. Ba4+ Kc7 68. Bb3 { The key for white's defence
+is to set up a dynamic fortress. The bishop on b3 and the pawn on c3 guard the
+entry squares for the black king, and the bishop additionally stops a2 and a4.
+The rook's job is to create enough harassment to prevent the black bishop to
+protect the d1 promotion square, and the d2 pawn push. Black would need two
+tempi to prepare d1=Q, but will never have enough time with the best defense.
+[%csl Ya4,Yb4,Yc4,Yd4,Ya2]}  68... Kc6 69. Rd1 { This is the easiest plan. Now
+Bg4 is prevented, as d3 would.}  69... Kb5 70. Rb1 { The only move. Black has
+to move the king away to prevent Bxc2+ exposure check, and thus, a4 or Bg4 here
+is prevented.}  70... Kc6 ( 70... Kc5 { But black has to be careful not to
+overextend. Kc5 here can be met with Ba2, and white breaks black's pawn push
+and emerges as the winner.}  71. Ba2 Kc6 { The problem with Kc5 was that in
+this setup, white rook is able to enter behind the 8th rank, and start checking
+the king and targeting the pawns. Particularly, when white takes g7, there is
+no stopping from g6 queening. If black tries to gobble h5/g6 pawns, then white
+will take black's Q-side pawns.}  ( { There is no time to play d2. An example
+line. } 71... d2 72. Rd1 Ne1 73. Rxd2 Nd3+ 74. Ke2 Nxf4+ 75. Ke3 Nxh5 76. Kf3
+Bxg6 77. Kg4 Be8 78. Rd8 Bg6 79. Bxe6 { The black minor pieces are now
+completely tied down. Black king must evacuate 5th and 6th ranks to avoid the
+rook forking king and a piece with Rd6+  ( and Rd5+ first if necessary )  after
+the Be6 has has moved.}  79... Kb6 80. Rd6+ Ka7 81. Bd5 Be8 82. Re6 { And
+either the bishop or the knight will fall.}  ) ( 71... Bg4 { Finally, Bg4 falls
+for f5.}  72. f5 exf5 73. e6 Bxh5 74. e7 Bxg6 75. Rb8 d2 76. Ke2 Ne3 77. Rc8+
+Kb6 { Kd6 would allow Kxe3, since d1=Q is met with Rd8+ skewer.}  78. Kxd2 Ng4
+79. e8=Q Bxe8 80. Rxe8 { The rest is technique.}  ) 72. Rb8 { [%csl
+Gg8,Rg6][%cal Gb8g8,Gb8d8,Gd8d3,Gb8a8,Ga8a5,Rg6g8]}  )71. Rd1 { Rd1 back,
+preventing Bg4 ideas.[%cal ]}  ( 71. Ba2 Kc7 )71... Kc7 72. Ba2 a4 { If a4 is
+ever played, then Ba2 and c3 will still maintain the entry squares.[%csl
+Yb4,Yc4,Yd4]}  )( { This was the eight move. This variation does not work for
+white. } 67. Rb1 Bg4 68. f5 Bxf5 69. Ba2 Kc7 70. Rg1 Kc6 71. Kf3 d2 72. Ke2 Ne1
+73. Rh1 Be4 74. Rh4 Bd3+ )67... d2 68. Ke2 Ne1 { Now, d2 is untouchable by the
+king, because of Nf3 fork.}  69. Kd1 Nf3 { And the knight is now able to
+protect the d2. Black can now overwork the white defenders.}  70. Rh1 ( 70. Rf1
+{ Does not work, because}  70... Bh3 71. Rf2 { Rxf3 would have been a bad idea
+with the Bg4 pin. If then Ke2, simply Bxf3+ would win the rook, since Kxf3
+would fall to d2 Bxd2 a2 and a1=Q.}  )70... Bd3 { A necessary intermediate
+move, preventing Rf1 now, and asking white to play Ba4+ and Bd3 back, winning a
+crucial tempo to move the king away from d7.}  ( 70... Bb1 { This is black's
+threat, but the Bxa4+ must be nullified first.}  71. Rf1 a4 { To deflect the
+bishop, allowing a2 and a1=Q, but...}  72. Bxa4+ Ke7 73. Bb3 )71. Ba4+ ( 71.
+Rh3 { The only sensible alternative.}  71... Be4 72. Rh1 Nd4 73. cxd4 Bxh1 74.
+Kxd2 Bf3 { Black will soon have two outside passers, and there is no way to
+stop the both.[%cal Rf3h5,Ga3a1,Gh6h1]}  )71... Ke7 { King steps away from the
+Ba4+ check, and now, the Bb1 threat is enabled.}  72. Bb3 Bb1 { Now, Bb1 can be
+played.}  73. Rh3 ( 73. Rf1 { Rf1 does not work anymore as a defensive
+resource, because}  73... a4 { deflects the bishop and Bxa4 is no longer a
+check.}  74. Bxa4 a2 75. Ke2 a1=Q )73... Be4 74. Rh1 Nxe5 { The final piece of
+the puzzle.}  75. Rf1 a4 76. Ba2 ( 76. fxe5 axb3 77. Rf7+ Ke8 78. Rxg7 b2 { And
+there is no stopping one of the pawns queening.}  )76... Nf3 77. Rh1 Bd3 78.
+Rh3 Bf5 79. Rh1 Kd6 80. Bc4 Bb1 81. Rh3 { The game was adjudicated as a win. A
+potential closure follows.}  81... Bd3 82. Ba2 Be2+ 83. Kxe2 Ng1+ 84. Kxd2 Nxh3
+85. Ke3 e5 86. f5 Nf4 87. f6 Nxh5 88. f7 Ke7 89. Ke4 Nf4 90. Kxe5 Nd3+ 91. Ke4
+Nc1 { White will lose a bishop and the game, because the white king cannot
+possibly stop pawns at either side of the board. [%cal ]}  92. Bb1 a2 93. Bxa2
+Nxa2 94. Kd3 Nc1+ 95. Kd2 Nb3+ 96. Kc2 h5 { [%cal Gh5h1,Ga4a1]}   0-1
 
