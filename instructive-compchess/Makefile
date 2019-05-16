@@ -16,7 +16,10 @@
 
 BASEDIR:=..
 
-TARGETS:=instructive-compchess-games.pdf
+TARGETS:=\
+	instructive-compchess-games.pdf \
+	tcec-s15-bonus-g2.pdf \
+	tcec-s15-sufi-g12.pdf
 
 include $(BASEDIR)/mk/help.mk
 include $(BASEDIR)/mk/latex.mk

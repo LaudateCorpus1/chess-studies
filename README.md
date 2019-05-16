@@ -3,16 +3,28 @@
 ## Instructive computer chess games
 
 This is a study of instructive computer chess games.
-[Pre-compiled PDF](instructive-compchess/instructive-compchess-games.pdf)
 
-# Building from sources
+[Everything in a book format (PDF)](instructive-compchess/instructive-compchess-games.pdf)
 
-## Prerequisites:
+### Individual games
+
+TCEC Season 15
+
+- Superfinal Game 12
+  [[Analysis (PDF)](instructive-compchess/tcec-s15-sufi-g12.pdf)] ---
+  TCEC archive [[link](https://cd.tcecbeta.club/archive.html?season=15&div=sf&game=12)]
+- Bonus: Bluefish vs Leela Jhorthos Game 2
+  [[Analysis (PDF)](instructive-compchess/tcec-s15-bonus-g2.pdf)] ---
+  TCEC archive [[link](https://cd.tcecbeta.club/archive.html?season=bonus&div=fun_bonus&game=2)]
+
+## Building from sources
+
+### Prerequisites:
 - Recent enough TeX Live distribution
 - GNU Make
 - Basic shell tools such as md5sum, find, grep, and sed.
 
-## Building:
+### Building:
 
 At the top level:
 

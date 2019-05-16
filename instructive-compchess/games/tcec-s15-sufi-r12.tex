@@ -1,0 +1,482 @@
+%% skiminki's computer chess studies
+%% Copyright (C) 2019 Sami Kiminki
+%%
+%% This program is free software: you can redistribute it and/or modify
+%% it under the terms of the GNU General Public License as published by
+%% the Free Software Foundation, either version 3 of the License, or
+%% (at your option) any later version.
+%%
+%% This program is distributed in the hope that it will be useful,
+%% but WITHOUT ANY WARRANTY; without even the implied warranty of
+%% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%% GNU General Public License for more details.
+%%
+%% You should have received a copy of the GNU General Public License
+%% along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+\chessgame{LCZero v0.21.1-nT40.T8.610}{Stockfish 19050918}%
+          {TCEC S15 Superfinal, Game 12}%
+          {C05 French, Tarrasch, Closed}%
+          {2019-05-12}
+
+
+Following concepts exemplified:
+\begin{enumerate}
+\item Importance of the center to shelter the king when the king is
+not behind pawns
+\item Tactical sequences for positional gains
+\item Positional analysis to create a fortress
+\item Advanced endgame techniques: deflection and skewer
+\end{enumerate}
+
+
+\mainline{1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. f4 c5 6. c3 Nc6
+7. Ndf3 Qb6 8. g3 Be7}
+
+The most popular continuation here is \variation{8... cxd4 9. cxd4
+Bb4+ 10. Kf2 g5 11. fxg5 Ndxe5 12. Nxe5 Nxe5 13. Kg2 Nc6 14. Nf3 Bf8
+15. b3 Bg7 16. Bb2 Bd7}.
+
+\mainline{9. Kf2}
+
+\chessboard[pgfstyle=straightmove,
+  color=yellow, markmoves={b6-f2}]
+
+End of the opening book. This is a prophylaxis to avoid \wmove{Bb4}
+with a tempo after \movecomment{... cxd4 cxd4}. See the mainline
+\movecomment{8... cxd4} for details. But this move is not completely
+without drawbacks, and a potential pin has to be considered.
+
+In positions such as this, where the king is not safely behind the
+pawns after the usual castling, trying to maintain a strong blockaded
+center is often a wise decision. The reason is quite simple: without
+the central pawns, black would be able to start attacking the white
+king using diagonal through the center, often with double attacks of
+forks and mate-threatening tactics. The importance of the central
+pawns is exemplified by the queen on b6 eyeing the king.
+
+However, since the center is not yet solidified, white has to be
+careful. For instance, the e5-pawn cannot rely on the protection of
+the d4 pawn, since after \movecomment{... cxd4 cxd4}, the white
+d4-pawn would be pinned. This is not a problem right now, since the
+e5-pawn is protected by the f4-pawn and the knight on f3. But, the
+potential pin has to be constantly factored in when calculating the
+responses to black's attempts to undermine the center with a typical
+plan of f6.
+
+A slightly more popular move than \movecomment{9. Kf2} was to
+play \movecomment{9. Bh3,} instead. This discourages \bmove{f6} ideas
+by exposing the resulting weakness in the e6-pawn.
+
+
+\mainline{9... a5 10. a4 cxd4!}
+
+This logical move has many upsides. First, it allows installation of a
+piece in b4, as c3 will no longer control it. Second, the pawn on d4
+becomes a bit weak. Third, white has to spend a tempo in order to move
+the queen out of the pin soon. Fourth, the c-file is opened, which
+should favor black due to white's king safety issues if black is able
+to use by the rooks.
+
+\mainline{11. cxd4 Ndb8}
+
+\chessboard[pgfstyle=knightmove,
+  color=green, markmoves={b8-a6,a6-b4},
+  color=yellow, markmoves={c6-b4},
+  color=red!30, pgfstyle=color,
+  colorbackfields={d4}]
+
+With a plan of \wmove{Nb8-a6-b4} installing an extra strong knight on
+b4. If white takes, there's another knight ready to step in. Potential
+weakness on d4 highlighted.
+
+\mainline{12. Ne2 O-O 13. Kg2}
+Now avoiding the pin, simplifying white's play in response
+to \bmove{f6}. An interesting alternative would have been to
+play \wmove{Bh3} first, allowing white to put some pressure on the
+pawn on e6, discouraging \bmove{f6} by positional arguments against
+the weakened e6.
+
+\mainline{13... Na6 14. Nc3?!}
+Here the validity of the move by white can be questioned. While there
+are certainly ideas of playing \wmove{Na2} to challenge the b4 square
+and \wmove{Nb5} blocking black queen's access to the b-file, more
+importantly, the move also undermines the protection of the d4
+pawn. This allows black to execute a better version of the f-pawn
+push, forcing white to recapture with the d-pawn instead of the
+f-pawn. White could have considered playing \wmove{Rb1}
+and \wmove{Be3} first to solidify the d4 pawn, and only then
+playing \wmove{Nc3}.
+
+\mainline{14... f6! 15. h4 fxe5 16. dxe5}
+
+\chessboard[pgfstyle=straightmove,
+  color=green, markmoves={d5-d4}]
+
+Now the argument against \movecomment{14 Nc3} has been made.
+Capturing with the f-pawn would now have allow black sacrificing the
+exchange for a knight and pawn as a direct
+consequence: \variation{16. fxe5 Rxf3! 17. Qxf3 Nxd4 18. Qd1} with
+plenty of compensation. Also, the earlier \movecomment{15. exf6 Bxf6}
+would not have been attractive either, as black would be able to put
+proper pressure on the pawn on d4. So, white was forced to capture
+with the d-pawn, and black has now a scary-looking protected potential
+passer on d5, which is now controlling important squares c4 and e4.
+
+\mainline{16... h6 17. Bd3 Nab4}
+Black has now finally executed the plan to install an extra strong
+knight on b4. Sometimes, it is said that knights protecting each other
+are clumsy, because they're in each other's way. And surely, in
+endgames, this can be true, especially when the knights are the only
+thing protecting each other. However, this is different, since the
+knight on c6 serves as a replacement in case the knight on b4 is
+captured.
+
+The knight on b4 is ready to support push of the d-pawn up to d3.
+
+\mainline{18. Bb1 Bd7 19. Na2 Rac8 20. Kh3}
+\chessboard[pgfstyle=straightmove]
+
+This little move deserves special attention. While \movecomment{20. Kh3} may
+look like a prophylaxis, and it is, it also puts the king in the same
+diagonal with
+\wmove{Bd7.} This makes e6 pawn a bit less weak, since white has to spend an
+extra tempo to move the king away from the diagonal before e6 can be
+captured without a pin. However, with the king safety being somewhat
+questioned, being sheltered by an enemy pawn is probably better than
+leaving the king in g2 awaiting for tactics. After the knight moves
+away from c6, the king on g2 would be subject to \bmove{d4} with a
+follow-up check through the a8-h1 diagonal with tempo gains.
+
+\mainline{20... Be8 21. Nxb4 Nxb4 22. Ra3 Bc5 23. Bd2 Qa6 24. Rc3}
+
+White is not quite in time to defuse black's pressure. If given a free
+tempo, say \variationcurrent{24... Kh8 25. Be3 b6 26. Nd4 Bxd4
+27. Bxd4}, and white would be able to blockade the d-pawn and perhaps
+starting to target the pawn on b6 or preparing \wmove{g4}
+and \wmove{f5} with the idea to create a passer on the
+e-file. However, tempi are a scarcity in chess.
+
+Instead of trying to keep the tension with \movecomment{24. Rc3,}
+maybe it was time to relieve the tension a bit
+with \variation{24. Bxb4} and go for a draw.
+
+\mainline{24... b5}
+\chessboard[pgfstyle=straightmove]
+
+One thing that always amazes is how the computers so casually allow
+pins and leave pieces hanging. But of course, the computers are able
+to calculate through tactics. Many humans would understandably start
+looking into solidifying moves such as \wmove{Bd7} to
+prevent \wmove{Qc1} pinning the bishop on c5. Instead of solidifying
+the position and trying to untangle the pins, black complicates the
+position to win a pawn.
+
+\mainline{25. Qc1}
+
+Taking the b-pawn would be problematic: \variation{25. axb5?!
+Bxb5\withattack} and white would have annoying threats such
+as \bmove{Be2} fork to deal with. Pinning the bishop was the better
+choice, although black can strenghten the protection of the bishop on
+c5 just in time.
+
+\mainline{25... Qb6 26. Nd4 bxa4}
+
+This move was the point of the tactical complications
+of \movecomment{24... b5}, changing the queen-side pawn structure to
+favor black. White is now left with a weak b-pawn against doubled
+a-pawns and a passer on d5.
+
+\mainline{27. Be3 Bd7}
+
+Now black allows a tactical sequence by white winning an exchange. If
+black wanted, the next move could have been prevented
+by \variation{27... Rc7.} White enters now in a forced sequence.
+
+\mainline{28. Nf5!? Bxe3!}
+
+Note that giving up the exchange early with \variation{28... Rxf5
+29. Rxc5 Rxc5} would have given white two pleasant options:
+(1) \movecomment{30. Bxc5 Qa6 31. Bxf5 exf5\wupperhand} taking the
+exchange with roughly equal pawn structure, as white also has a
+passer; or (2) \movecomment{30. Qxc5 Qxc5 31. Bxc5 Rf7 32. Bg6 Bb5
+33. Bxf7+ Kxf7\wupperhand} delaying the taking of the exchange a bit,
+keeping the pawn structure but simplifying the positions with
+exchanges. Both variations are likely winning for white.
+
+\mainline{29. Ne7+ Kf7 30. Nxc8 Rxc8 31. Qxe3 d4}
+
+Forcing sequence ends. Here white could have also untangled from the
+fork by \movecomment{32. Qd2,} as \movecomment{32... dxc3??} would
+fall for \movecomment{33. Qxd7+ Kf8 34. Qxc8+} with mate soon to
+follow.
+
+\mainline{32. Qf2 Qb7 33. Rcc1 d3}
+
+\chessboard[pgfstyle=straightmove]
+
+Now black has finally been able to push the d-pawn to d3. Since the
+pawn is protected by the strong knight on b4 and black can enforce the
+protection by the light square bishop, white has no good way to
+challenge the pawn on d3. Note that the white king cannot come to
+assist in the capture either, because after the exchanges, white's
+king-side pawns would be subject to be captured by the black king.
+
+We are now going to fast forward to the next critical position.
+
+\mainline{34. h5 Rxc1
+35. Rxc1 Qd5 36. Kh4 Bc6 37. g4 Ke8 38. Rf1 Qd8+ 39. Kg3 Qd5 40. Rd1
+Qb3 41. Rd2 Qc4 42. Rd1 Qb3 43. Qd2 Be4 44. Re1 Bb7}
+
+\chessboard[pgfstyle=straightmove]
+
+The pawn move \wmove{f5} here is interesting, and it seems a way for
+white to force a draw, although the play is not forced by either
+side. For example, \variationcurrent{45. f5 exf5 46. gxf5 Qd5 47. Re3}
+and black can still hang on to the d3 pawn
+with \movecomment{47... Bc8} with the idea of \movecomment{48. Bxd3??
+Bxf5!}. But after \movecomment{48. e6 Qxf5 49. Bxd3} it would be black
+who has to be careful.
+
+An interesting alternative play for black would
+be \movecomment{46... Nc2}. White has no oblication to take on c2, but
+it would lead in a nice way to force a draw. \movecomment{47. Bxc2
+dxc2+ 48. Re3 Qxb2 49. f6.} Here black could promote to get another
+queen, but white would be just in time with \movecomment{49... c1=Q
+50. f7+ Kxf7 51. Qd7+ Kg8 52. Qe8+ Kh7 53. Qg6+ Kg8 54. Qe8+}, drawing
+with perpetual checks.
+
+\mainline{45. Rd1 Be4
+46. Kh4 Qd5 47.  Qc3 Kf7 48. Qc7+ Kg8 49. Qc3 Kh7 50. Kh3 Kg8 51. Kh4
+Kh7 52. Kg3 Kg8 53. Qc8+ Kh7 54. Qc1 Qb3 55. Qd2 Kg8 56. g5}
+
+\chessboard[pgfstyle=straightmove]
+
+Taking the pawn on g5 here might be a small
+inaccuracy: \variationcurrent{56... hxg5 57. fxg5 g6} to prevent white
+from playing g6 himself with backrank mate threats. An example
+contituation: \movecomment{58. Rc1 Nc2 59. Kf4 Qb7 60. Bxc2 dxc2
+61. Qd8+ Kh7 62. Qf8 gxh5 63. Qh6+ Kg8 64. Qxe6+}, but this should
+still be about equal.
+
+\mainline{56... Kf8 57. g6 Ke7 58. Kh3 Ke8 59. Kh4 Qc4 60. Kg3 Bf5
+61. Qc3}
+
+\chessboard[pgfstyle=straightmove]
+
+This is a committal move, offering the queen exchange, which black
+accepts. While the game has been objectively close to a draw and still
+is, only black can press for the win. With queens on the board, there
+was always a possibility for some dynamic play.
+
+\mainline{61... Qxc3 62. bxc3}
+
+It is possible that white thought that at this position, the d3-pawn
+could be somehow won, possibly by giving the exchange back. If that
+was the case, then white king could hold or take the black pawns on
+the a-file. However, the d-pawn can never be taken without losing the
+game.
+
+\mainline{62... Nc2}
+
+\chessboard[
+  color=red!30, pgfstyle=color,
+  colorbackfields={e1,e2,e3,e4}]
+
+This knight now becomes a very annoying piece. Together with the pawn
+and the bishop, all white king's access squares to the d-pawn are
+controlled.
+
+\mainline{63. Kf2}
+White now has a threat of \wmove{Bxc2}, and white would be just in
+time to stop the black pawns.
+
+\mainline{63... a3!}
+Parries the threat of Bxc2. Now black king is just in time to escort
+the a-pawns.
+
+\mainline{64. Ba2}
+Taking the c2-pawn would have been a huge blunder. \variation{64. Bxc2
+dxc2 65. Rc1 Kd7 66. Ke3 Kc6 67. Kd2 Kb5 68. Rxc2 Kc4!} Taking the
+rook with Bxc2 would have been a huge blunder, since white has a
+winning king-side pawn break. \movecomment{69. Rc1 Kb3 70. Re1 a2} and
+there's no way of stopping \wmove{a1Q} other than giving up the
+rook.
+
+
+\mainline{64... Kd7 65. Bb3 Kc7 66. Rg1 Kd7}
+
+\chessboard
+
+This is the final position in the game where the game was still
+objectively a draw.
+
+\mainline{67. Kf3?}
+Computer analysis suggests that white had at seven moves which would
+have maintained the draw. Unfortunately, the move played was none of
+them. The problem with \movecomment{67. Kf3?} is that it
+allows \movecomment{67... d2} with precise tactics as played, winning
+the game.
+
+The key for white maintaining the draw is to set up a dynamic
+fortress, preventing black's progress. Let us take a closer look.
+
+Perhaps the easiest way to set up the defenses is the straightforward
+Ba4+.
+
+\movecomment{67. Ba4+ Kc7 68. Bb3.} The bishop on b3 and the
+pawn on c3 guard the entry squares for the black king, and the bishop
+additionally stops the immediate a2 and a4. The rook's job is to
+create enough harassment to prevent the black bishop to enter a square
+to protect the d1 promotion square, and the d-pawn push. Black would
+need two tempi to prepare \wmove{d1=Q}, but will never have enough
+time with the best defense.
+
+\movecomment{68... Kc6 69. Rd1.} This is the easiest
+plan. Now \wmove{Bg4} is prevented, as d3 would be hanging.
+
+\movecomment{69... Kb5 70. Rb1.} The only
+move. Black has to move the king away to prevent Bxc2+ exposure check,
+and thus, \wmove{a4} or \wmove{Bg4} here is prevented.
+
+Black has to be careful not to overextend, and thus has to
+retreat. The c5-square is off limits for the king here, since that
+would allow the white rook to enter the 8th rank. For example:
+\movecomment{70... Kc5? 71. Ba2! Kc6. 72. Rb8}, and the white rook would
+start picking up the black pawns. There is also no time for black to
+play \wmove{d2} in this line, since the rook would simply move to the
+d-file to pick up the pawn.
+
+\movecomment{70... Kc6 71. Rd1} to prevent \wmove{Bg4}. Black has no
+way to make progress. The final attempt is to play \wmove{a4} after
+{Ba2}.
+
+\movecomment{71... Kc7 72. Ba2 a4.}  However, \wmove{Ba2}
+and \wmove{c3} will control the entry squares for the king, and
+without the king, the d-pawn can never promote successfully.
+
+\mainline{67... d2! 68. Ke2 Ne1!}
+
+The d2-pawn is untouchable, \movecomment{69. Kxd2 Nf3+} and black
+picks up the rook.
+
+\mainline{69. Kd1 Nf3}
+
+The pawn on d2 is now protected. However, precise play is still needed
+for conversion, but that is no problem for Stockfish.
+
+\mainline{70. Rh1 Bd3}
+
+\chessboard
+
+Black's threat here is to play \wmove{Bb1} and then deflect the white
+bishop with \wmove{a4}, and when the bishop is no longer controlling
+the a2-square, then play \wmove{a2} and \wmove{a1=Q}. But that has to
+be prepared by moving the queen out of \wmove{Bxa4+} check.
+
+\mainline{71. Ba4+ Ke7 72. Bb3 Bb1}
+Now the \wmove{a4} deflecting threat is enabled. Now, white is really
+out of moves.
+
+\mainline{73. Rh3}
+
+Another try was \variation{73. Rf1 a4 74. Bc4 Bd3! 75. Bxc3 a2,} but
+that does not work, either.
+
+\mainline{73... Be4 74. Rh1 Nxe5}
+
+Picks up a pawn. White cannot give the exchange
+back: \variationcurrent{75. fxe5 Bxh1 76. Kxd2 a4 77. Ba2 Bf3 78. c4
+Bxh5 79. Kc3 Bxg6 80. c5 Be4 81. Bc4 h5} and white cannot stop both a
+and h-pawns.
+
+
+\mainline{75. Rf1 a4 76. Ba2}
+\variation{76. fxe5 axb3} with connected unstoppable passers for black.
+
+\mainline{76... Nf3 77. Rh1 Bd3 78. Rh3 Bf5 79. Rh1}
+
+The knight cannot be taken due to skewer. \variation{79. Rxf3 Bg4
+80. Ke2 Bxf3+ 81. Kxd2} and black picks up white's h5 and g6 pawns.
+
+\mainline{79... Kd6 80. Bc4 Bb1 81. Rh3}
+
+\chessboard
+
+0-1. Black wins by adjudication.
+
+A possible continuation: \variationcurrent{81... Bd3 82. Ba2 Be2+
+83. Kxe2 Ng1+ 84. Kxd2 Nxh3 85. Ke3 e5 86. f5 Nf4 87. f6 Nxh5 88. f7
+Ke7 89. Ke4 Nf4 90. Kxe5 Nd3+ 91. Ke4 Nc1 92. Bb1 a2 93. Bxa2 Nxa2
+94. Kd3 Nc1+ 95. Kd2 Nb3+ 96. Kc2 h5}. White king cannot stop both a
+and h-pawns.
+
+
+\chessgameappendix{}
+
+\fenboard{8/6p1/4p1Pp/2k1P2P/5P2/8/8/4K3 b - - 0 1}
+\chessboard[clearfields={c5,e1}]
+
+When evaluating transitions to endings, it is often useful to analyze
+specific pawn structures on the board and whether they're winning or
+not given the remaining pieces.
+
+The pawn structure in the figure is winning for white, unless there is
+a black piece to stop the queening. The plan for white is to play f5,
+and then:
+\begin{enumerate}[label=(\alph*)]
+\item if black takes, push the e-pawn. Full
+variation: \movecomment{1. f5 exf5 2. e6 f4} and the e-pawn runs.
+\item if black doesn't take, push the f-pawn again. Full variation:
+\movecomment{1. f5} and \movecomment{2. f6 gxf6 3. g7} and the g-pawn
+queens on the next move.
+\item if black still doesn't take, take the g-pawn with the
+f-pawn. Full variation: \movecomment{1. f5} and \movecomment{2. f6}
+and \movecomment{3. fxg7} and the g-pawn queens on the next move.
+\end{enumerate}
+
+Now, when considering a king-pawn ending with this structure, it is
+quite straightforward to determine the area where the black king has
+to be in order to stop the queening, provided white king is far
+away. Consider that \movecomment{1. f5} has been played.
+
+\fenboard{8/6p1/4p1Pp/2k1PP1P/8/8/8/5K2 b - - 0 68}
+\chessboard[clearfields={c5,e1},
+  color=blue!30, pgfstyle=color,
+  colorbackfields={d4,e4,f4,g4,h4},
+  pgfstyle=straightmove,
+  color=green, markmoves={b5-e8,h5-e8,b8-e8,h8-e8,e5-e8}]
+
+Plan (a) works for black, as long as the king is somewhere along the
+green arrows and has a path for the pawn when white makes the
+move. When so, the king can still catch the pawn
+after \movecomment{1... exf5.}
+
+For plans (b) and (c) to work for black, the king has to be able to
+catch the breaking pawn. Thus, black king can be in any of the blue
+squares after \movecomment{1. f5} and still catch the queener,
+provided there is a clear path.
+
+Combining, since black can choose the plan, the king has to be one of
+the green or blue squares to prevent queening when it is white to move:
+
+\fenboard{8/4k1p1/4p1Pp/4P2P/5P2/8/8/4K3 w - - 1 65}
+\chessboard[clearfields={c5,e7},
+  color=blue!30, pgfstyle=color,
+  colorbackfields={d4,e4,g4},
+  color=green!30,
+  colorbackfields={b5,c5,d5,f5,g5},
+  colorbackfields={b6,c6},
+  colorbackfields={b7,c7,d7,e7},
+  colorbackfields={b8,c8,d8,e8,f8,g8,h8},
+  color=red!30,
+  colorbackfields={h4}]
+
+The only square for the king where the path becomes a problem is
+h4. Consider \movecomment{1. f5 Kxh5 2. fxe6 Kxg6} and now the doubled
+pawns prevent the black king from intercepting. On the other hand, the
+white pawns cannot advance, either.
+
+\fenboard{8/6p1/4P1kp/4P3/8/8/8/4K3 w - - 0 67}
+\chessboard[clearfields={e1}]
+

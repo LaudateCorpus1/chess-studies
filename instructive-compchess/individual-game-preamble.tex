@@ -14,7 +14,7 @@
 %% You should have received a copy of the GNU General Public License
 %% along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-\documentclass[a4paper,11pt,twocolumn]{report}
+\documentclass[a4paper,11pt,twocolumn]{article}
 \usepackage{times}
 \usepackage{textcomp}
 \usepackage[protrusion=true,expansion=true]{microtype}
@@ -29,41 +29,24 @@
 \font\sknfbx=SkakNew-FigurineBold
 \font\skndia=SkakNew-DiagramT
 
-\title{Instructive Computer Games of Chess:\\What we can learn from the beasts?}
-\author{S. Kiminki}
-
 \newcommand{\abbeg}[0]{\emph{e.g.}\@}
 \newcommand{\abbie}[0]{\emph{i.e.}\@}
 \newcommand{\abbetal}[0]{\emph{et al.}\@}
 
+\begin{document}
+\author{S. Kiminki}
+\title{Instructive Computer Games of Chess}
+
 \newcommand{\chessgame}[5]{%
-  \begin{center}%
-     \section{\textbf{#1} -- \textbf{#2}}% participants
-     \textsf{#3}%                          event
-
-     \small{\textsc{#4}}%                  opening
-
-     \small{\emph{\printdate{#5}}}%        date
-  \end{center}%
+  \title{%
+    \Large{\emph{Instructive Computer Games of Chess:}}\\[3mm]%
+    \textsf{#1 -- #2}\\%
+    \Large{\printdate{#5}}\\[5mm]%
+    \Large{#3}\\%
+    \large{\textsc{#4}}%
+  }%
+  \maketitle%
   \styleC\newgame%
 }
 
 \newcommand{\chessgameappendix}[0]{\section*{Appendix}}
-
-
-% notes: styleC is the nice move pair per line; styleB is the condensed format.
-
-\begin{document}
-\maketitle
-
-\chapter{Strategic Advantage}
-
-\input{games/tcec-s15-bonus-bf-leela-round-2-1.tex}
-
-\chapter{Endgame techniques}
-
-\input{games/ccc1-stage-1-35-ethereal-lc0.tex}
-
-\input{games/tcec-s15-sufi-r12.tex}
-
-\end{document}

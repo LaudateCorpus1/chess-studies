@@ -241,58 +241,66 @@ and the potential pin needs to be watched. The queen on b6 is eyeing the king
 on this diagonal behind the pawns. This basically means that e5 pawn is not
 effectively protected by d4 after ... cxd4 cxd4. We'll see that position a bit
 later.[%cal Rb6f2]}  9... a5 10. a4 cxd4 $1 { This logical move has many
-upsides. First, it allows the installation of a piece in g4, as f3 will no
+upsides. First, it allows the installation of a piece in b4, as c3 will no
 longer control it. Second, d4 becomes a bit of a weak pawn. Third, white has to
 spend a tempo by moving the queen out of the pin soon. Fourth, c-file is
 opened, which should favor black due to white's king safety issues.}  11. cxd4
 Ndb8 { With a plan for Na6-b4 installing a doubly strong knight. If white
 takes, there's another knight available. [%cal Gb8a6,Ga6b4,Yc6b4]}  12. Ne2 O-O
-13. Kg2 { Avoiding the pin, which would become an issue after ... f6.}  13...
-Na6 14. Nc3 f6 15. h4 fxe5 16. dxe5 { Now black has a scary-looking pawn. [%cal
-Gd5d4]}  ( { Taking with the f-pawn would not have avoided black getting a
-passed and protected d5-pawn, if black sacrifices the exchange for N and pawn.
-} 16. fxe5 Rxf3 17. Qxf3 Nxd4 18. Qd1 )16... h6 17. Bd3 Nab4 18. Bb1 Bd7 19.
-Na2 Rac8 20. Kh3 { This little move deserves a special attention. While this
-may look like a prophylaxis, it also puts the king in the same diagonal with
-Bd7. This make e6 pawn a bit less weak, since white has to spend an extra tempo
-move the king away from the diagonal before e6 can be captured without a pin.
-However, with the king safety being questioned, being sheltered by an enemy
-pawn is probably better than leaving the king in g2. Kg2 would be vulnerable to
-d4 and check through the a8-h1 diagonal with tempo gains.}  20... Be8 21. Nxb4
-Nxb4 22. Ra3 Bc5 23. Bd2 Qa6 24. Rc3 ( { Perhaps white already needed to make a
-concession and go for the draw, although even that is not so simple anymore. }
-24. Bxb4 axb4 25. Bd3 Qa7 26. Ra1 Bh5 27. Rf1 { Must protect agaist the
-pin[%cal Rh5d1]}  27... Be3 28. Be2 { Black can still play Bxf4, but that would
-be about equal. For example:}  28... Bxf4 29. gxf4 Rxf4 30. Qd2 Rcf8 31. Kg3
-Rg4+ 32. Kh3 Re4 33. Kg3 Rg4+ { 3-fold incoming. However, this line after 28...
-Bxf4 is not forced.}  )24... b5 { The one thing that always amazes is how the
-computers often so casually allow pins and leave pieces loose or hanging. But
-of course, the computers are able to calculate through tactics. Many humans
-would understandably start looking into solidifying moves such as Bd7 to
-undermine the Qc1 pinning the bishop on c5. Instead of solidifying the position
-and trying to untangle the pins, black goes for the breakthrough.}  25. Qc1 {
-The pin [%cal Rc1c8]}  ( 25. axb5 $6 Bxb5 $36 { [%cal Rb5e2]}  )25... Qb6 26.
-Nd4 bxa4 { This move is the whole point of allowing the tactical complications.
-After the dust settles, white is left with a weak b-pawn against doubled
-a-pawns, and a passer on d5.}  27. Be3 Bd7 ( { If black wanted, there was a way
-to prevent the tactics winning exchange for white. } 27... Rc7 28. Re1 ( { To
-exemplify the drawback of 20. Kh3, had the king be somehow placed on h2,
-instead, this move would have been a clean pawn with decisive advantage, since
-... d4 is met with Rxc5 avoiding the fork. But now, Nxe6 is simply met with
-Qxe6+ and Bxe3. } 28. Nxe6)28... Na6 29. Qd2 Rb7 ( 29... Bb4 $2 30. Qd3 { [%cal
-Rd3h7]}  30... g6 { [%cal         Gc3c7]}  31. Rxc7 $16 )30. Rec1 $14 )28. Nf5
-{ Now white enters in a forcing sequence winning the exchange, but black gets
-full compensation.}  28... Bxe3 29. Ne7+ Kf7 30. Nxc8 Rxc8 31. Qxe3 d4 {
-Forcing sequence ends}  32. Qf2 ( { Alternative way to deal with the fork } 32.
-Qd2 Bc6 33. Rcc1 )32... Qb7 33. Rcc1 d3 34. h5 Rxc1 35. Rxc1 Qd5 36. Kh4 Bc6
-37. g4 Ke8 38. Rf1 Qd8+ 39. Kg3 Qd5 40. Rd1 Qb3 41. Rd2 Qc4 42. Rd1 Qb3 43. Qd2
-Be4 44. Re1 Bb7 45. Rd1 Be4 46. Kh4 Qd5 47. Qc3 Kf7 48. Qc7+ Kg8 49. Qc3 Kh7
-50. Kh3 Kg8 51. Kh4 Kh7 52. Kg3 Kg8 53. Qc8+ Kh7 54. Qc1 Qb3 55. Qd2 Kg8 56. g5
-Kf8 57. g6 Ke7 58. Kh3 Ke8 59. Kh4 Qc4 60. Kg3 Bf5 61. Qc3 { This is a
-committal move, offering the queen exchange. While the game has been
-objectively a draw or close to draw, after the queen exchange, only black could
-press on.}  61... Qxc3 62. bxc3 { It is possible that white thought that at
-this position, the d3 pawn could be somehow won, possibly by giving the
+13. Kg2 { Avoiding the pin, which would become an issue after ... f6.}  ( 13.
+Rb1 f6 14. Be3 Na6 15. Bh3 fxe5 16. fxe5 )( 13. Bh3 Na6 14. Kg2 Nab4 15. Be3 f6
+16. exf6 Bxf6 )13... Na6 14. Nc3 ( 14. Rb1 f6 ( 14... Nab4 15. Nc3 ( 15. Be3 f6
+16. Nc3 fxe5 17. fxe5 ) 15... f6 16. exf6 Bxf6 17. Be3 )15. h4 fxe5 16. fxe5 (
+16. dxe5)16... Rxf3 17. Kxf3 )14... f6 15. h4 ( 15. exf6 Bxf6 )15... fxe5 16.
+dxe5 { Now black has a scary-looking pawn. [%cal Gd5d4]}  ( { Taking with the
+f-pawn would not have avoided black getting a passed and protected d5-pawn, if
+black sacrifices the exchange for N and pawn. } 16. fxe5 Rxf3 17. Qxf3 Nxd4 18.
+Qd1 )( 16. Nxe5 Nxd4 )16... h6 17. Bd3 Nab4 18. Bb1 Bd7 19. Na2 Rac8 20. Kh3 {
+This little move deserves a special attention. While this may look like a
+prophylaxis, it also puts the king in the same diagonal with Bd7. This make e6
+pawn a bit less weak, since white has to spend an extra tempo move the king
+away from the diagonal before e6 can be captured without a pin. However, with
+the king safety being questioned, being sheltered by an enemy pawn is probably
+better than leaving the king in g2. Kg2 would be vulnerable to d4 and check
+through the a8-h1 diagonal with tempo gains.}  20... Be8 21. Nxb4 Nxb4 22. Ra3
+Bc5 23. Bd2 Qa6 24. Rc3 ( { Perhaps white already needed to make a concession
+and go for the draw, although even that is not so simple anymore. } 24. Bxb4
+axb4 ( 24... Bxb4 25. Rd3 )25. Bd3 Qa7 26. Ra1 Bh5 27. Rf1 { Must protect
+agaist the pin[%cal Rh5d1]}  27... Be3 28. Be2 { Black can still play Bxf4, but
+that would be about equal. For example:}  28... Bxf4 29. gxf4 Rxf4 30. Qd2 Rcf8
+31. Kg3 Rg4+ 32. Kh3 Re4 33. Kg3 Rg4+ { 3-fold incoming. However, this line
+after 28... Bxf4 is not forced.}  )24... b5 { The one thing that always amazes
+is how the computers often so casually allow pins and leave pieces loose or
+hanging. But of course, the computers are able to calculate through tactics.
+Many humans would understandably start looking into solidifying moves such as
+Bd7 to undermine the Qc1 pinning the bishop on c5. Instead of solidifying the
+position and trying to untangle the pins, black goes for the breakthrough.}  (
+24... Kh8 25. Be3 b6 26. Nd4 Bxd4 27. Bxd4 )25. Qc1 { The pin [%cal Rc1c8]}  (
+25. axb5 $6 Bxb5 $36 { [%cal Rb5e2]}  )25... Qb6 26. Nd4 bxa4 { This move is
+the whole point of allowing the tactical complications. After the dust settles,
+white is left with a weak b-pawn against doubled a-pawns, and a passer on d5.} 
+27. Be3 Bd7 ( { If black wanted, there was a way to prevent the tactics winning
+exchange for white. } 27... Rc7 28. Re1 ( { To exemplify the drawback of 20.
+Kh3, had the king be somehow placed on h2, instead, this move would have been a
+clean pawn with decisive advantage, since ... d4 is met with Rxc5 avoiding the
+fork. But now, Nxe6 is simply met with Qxe6+ and Bxe3. } 28. Nxe6)28... Na6 29.
+Qd2 Rb7 ( 29... Bb4 $2 30. Qd3 { [%cal Rd3h7]}  30... g6 { [%cal Gc3c7]}  31.
+Rxc7 $16 )30. Rec1 $14 )28. Nf5 { Now white enters in a forcing sequence
+winning the exchange, but black gets full compensation.}  28... Bxe3 ( 28...
+Rxf5 29. Rxc5 Rxc5 30. Bxc5 ( 30. Qxc5 Qxc5 31. Bxc5 Rf7 32. Bg6 Bb5 33. Bxf7+
+Kxf7 )30... Qa6 31. Bxf5 exf5 )29. Ne7+ Kf7 30. Nxc8 Rxc8 31. Qxe3 d4 { Forcing
+sequence ends}  32. Qf2 ( { Alternative way to deal with the fork } 32. Qd2 Bc6
+( 32... dxc3 33. Qxd7+ Kf8 34. Qxc8+ )33. Rcc1 )32... Qb7 33. Rcc1 d3 34. h5
+Rxc1 35. Rxc1 Qd5 36. Kh4 Bc6 37. g4 Ke8 38. Rf1 Qd8+ 39. Kg3 Qd5 40. Rd1 Qb3
+41. Rd2 Qc4 42. Rd1 Qb3 43. Qd2 Be4 44. Re1 Bb7 45. Rd1 ( 45. f5 exf5 46. gxf5
+Nc2 47. Bxc2 dxc2+ 48. Re3 Qxb2 49. f6 c1=Q 50. f7+ Kxf7 51. Rf3+ Bxf3 52. Qd7+
+Kg8 53. Qe8+ Kh7 54. Qg6+ { Perpetual}  )45... Be4 46. Kh4 Qd5 47. Qc3 Kf7 48.
+Qc7+ Kg8 49. Qc3 Kh7 50. Kh3 Kg8 51. Kh4 Kh7 52. Kg3 Kg8 53. Qc8+ Kh7 54. Qc1
+Qb3 55. Qd2 Kg8 56. g5 Kf8 57. g6 Ke7 58. Kh3 Ke8 59. Kh4 Qc4 60. Kg3 Bf5 61.
+Qc3 { This is a committal move, offering the queen exchange. While the game has
+been objectively a draw or close to draw, after the queen exchange, only black
+could press on.}  61... Qxc3 62. bxc3 { It is possible that white thought that
+at this position, the d3 pawn could be somehow won, possibly by giving the
 exchange back. And then white king could stop or take the black pawns on a
 file. But the d-pawn can never be taken.}  62... Nc2 { This knight is now a
 very annoying piece. Together with the pawn and the bishop, all white king's
@@ -330,8 +338,8 @@ will take black's Q-side pawns.}  ( { There is no time to play d2. An example
 line. } 71... d2 72. Rd1 Ne1 73. Rxd2 Nd3+ 74. Ke2 Nxf4+ 75. Ke3 Nxh5 76. Kf3
 Bxg6 77. Kg4 Be8 78. Rd8 Bg6 79. Bxe6 { The black minor pieces are now
 completely tied down. Black king must evacuate 5th and 6th ranks to avoid the
-rook forking king and a piece with Rd6+  ( and Rd5+ first if necessary )  after
-the Be6 has has moved.}  79... Kb6 80. Rd6+ Ka7 81. Bd5 Be8 82. Re6 { And
+rook forking king and a piece with Rd6+  (  and Rd5+ first if necessary  ) 
+after the Be6 has has moved.}  79... Kb6 80. Rd6+ Ka7 81. Bd5 Be8 82. Re6 { And
 either the bishop or the knight will fall.}  ) ( 71... Bg4 { Finally, Bg4 falls
 for f5.}  72. f5 exf5 73. e6 Bxh5 74. e7 Bxg6 75. Rb8 d2 76. Ke2 Ne3 77. Rc8+
 Kb6 { Kd6 would allow Kxe3, since d1=Q is met with Rd8+ skewer.}  78. Kxd2 Ng4
