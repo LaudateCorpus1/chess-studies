@@ -293,14 +293,18 @@ sequence ends}  32. Qf2 ( { Alternative way to deal with the fork } 32. Qd2 Bc6
 ( 32... dxc3 33. Qxd7+ Kf8 34. Qxc8+ )33. Rcc1 )32... Qb7 33. Rcc1 d3 34. h5
 Rxc1 35. Rxc1 Qd5 36. Kh4 Bc6 37. g4 Ke8 38. Rf1 Qd8+ 39. Kg3 Qd5 40. Rd1 Qb3
 41. Rd2 Qc4 42. Rd1 Qb3 43. Qd2 Be4 44. Re1 Bb7 45. Rd1 ( 45. f5 exf5 46. gxf5
-Nc2 47. Bxc2 dxc2+ 48. Re3 Qxb2 49. f6 c1=Q 50. f7+ Kxf7 51. Rf3+ Bxf3 52. Qd7+
-Kg8 53. Qe8+ Kh7 54. Qg6+ { Perpetual}  )45... Be4 46. Kh4 Qd5 47. Qc3 Kf7 48.
-Qc7+ Kg8 49. Qc3 Kh7 50. Kh3 Kg8 51. Kh4 Kh7 52. Kg3 Kg8 53. Qc8+ Kh7 54. Qc1
-Qb3 55. Qd2 Kg8 56. g5 Kf8 57. g6 Ke7 58. Kh3 Ke8 59. Kh4 Qc4 60. Kg3 Bf5 61.
-Qc3 { This is a committal move, offering the queen exchange. While the game has
-been objectively a draw or close to draw, after the queen exchange, only black
-could press on.}  61... Qxc3 62. bxc3 { It is possible that white thought that
-at this position, the d3 pawn could be somehow won, possibly by giving the
+Qd5 ( 46... Nc2 47. Bxc2 dxc2+ 48. Re3 Qxb2 49. f6 c1=Q 50. f7+ Kxf7 51. Qd7+
+Kg8 52. Qe8+ Kh7 53. Qg6+ Kg8 54. Qe8+ )47. Re3 Bc8 48. e6 Qxf5 49. Bxd3 Qg5+
+50. Kf2 Qh4+ 51. Kg1 Qg5+ 52. Kf2 Nd5 53. Bg6+ Ke7 54. Rd3 Qh4+ )45... Be4 46.
+Kh4 Qd5 47. Qc3 Kf7 48. Qc7+ Kg8 49. Qc3 Kh7 50. Kh3 Kg8 51. Kh4 Kh7 52. Kg3
+Kg8 53. Qc8+ Kh7 54. Qc1 Qb3 55. Qd2 Kg8 56. g5 Kf8 ( 56... hxg5 57. fxg5 g6 {
+To prevent white from playing g6 with backrank mate ideas.}  58. Rc1 Nc2 59.
+Kf4 Qb7 60. Bxc2 dxc2 61. Qd8+ Kh7 62. Qf8 gxh5 63. Qh6+ Kg8 64. Qxe6+ )57. g6
+( 57. gxh6 gxh6 )57... Ke7 58. Kh3 Ke8 59. Kh4 Qc4 60. Kg3 Bf5 61. Qc3 { This
+is a committal move, offering the queen exchange. While the game has been
+objectively a draw or close to draw, after the queen exchange, only black could
+press on.}  61... Qxc3 62. bxc3 { It is possible that white thought that at
+this position, the d3 pawn could be somehow won, possibly by giving the
 exchange back. And then white king could stop or take the black pawns on a
 file. But the d-pawn can never be taken.}  62... Nc2 { This knight is now a
 very annoying piece. Together with the pawn and the bishop, all white king's
@@ -374,4 +378,99 @@ potential closure follows.}  81... Bd3 82. Ba2 Be2+ 83. Kxe2 Ng1+ 84. Kxd2 Nxh3
 Nc1 { White will lose a bishop and the game, because the white king cannot
 possibly stop pawns at either side of the board. [%cal ]}  92. Bb1 a2 93. Bxa2
 Nxa2 94. Kd3 Nc1+ 95. Kd2 Nb3+ 96. Kc2 h5 { [%cal Gh5h1,Ga4a1]}   0-1
+
+[Event "TCEC Season 15 - Superfinal"]
+[Site "?"]
+[Date "2019.05.12"]
+[Round "12.1 Pawn study"]
+[White "LCZero v0.21.1-nT40.T8.610"]
+[Black "Stockfish 19050918"]
+[Result "*"]
+[BlackElo "3587"]
+[FEN "7k/6p1/4p1Pp/4P2P/5P2/8/8/4K3 w - - 1 65"]
+[Setup "1"]
+[WhiteElo "3589"]
+
+65. f5 Kg8 66. f6 Kf8 67. f7  *
+
+[Event "TCEC Season 16 - Qualification League"]
+[Site "http://tcec.chessdom.com"]
+[Date "2019.07.23"]
+[Round "22.8"]
+[White "Stoofvlees II a10"]
+[Black "Minic 0.76"]
+[Result "1-0"]
+[BlackElo "3331"]
+[ECO "C10"]
+[GameDuration "01:08:34"]
+[GameEndTime "2019-07-23T10:51:45.040 W. Europe Standard Time"]
+[GameStartTime "2019-07-23T09:43:10.960 W. Europe Standard Time"]
+[Opening "French"]
+[PlyCount "117"]
+[TerminationDetails "White mates"]
+[TimeControl "1800+5"]
+[Variation "Paulsen variation"]
+[WhiteElo "3820"]
+
+1. e4 e6 2. d4 d5 { End of book}  3. Nc3 Nc6 $5 4. e5 b6 $5 5. Nce2 $1 $146 {
+[%cal Gc2c3,Gc3d4,Ge2g3,Gg1f3,Yc7c5,Yf8c5]}  5... Nge7 6. Ng3 Qd7 7. c3 Bb7 8.
+b4 { [%csl Yd4,Ye5][%cal Yf2f4]}  8... g6 9. Bd3 Bg7 10. Nf3 Nf5 11. O-O h6 12.
+Rb1 { [%cal Ga2a4,Gb4b5,Ga4a5,Yb1b8]}  12... a6 13. Re1 Nxg3 14. fxg3 { [%cal
+Gf3h4,Gh4g6,Gd3g6]}  14... O-O ( 14... O-O-O)15. a4 Rfc8 16. g4 Ne7 17. Be3 {
+[%cal Ye3c5,Yb1b7]}  17... a5 18. b5 c6 19. Qd2 Kh7 { [%csl Gh6]}  20. h4 cxb5
+21. axb5 { [%cal Yd3c4,Re3d2,Rd2c3][%csl Gc3,Rb5]}  21... a4 22. h5 Rh8 23. Ra1
+Kg8 24. Ra2 Qc7 25. Rea1 g5 { [%cal Re3g5,Rf3g5,Gg4g7,Gh5h7,Gh1h3,Ga1f1,Gf1f6]}
+ 26. Rf1 a3 { [%csl Gh6,Gg5][%cal Rf3g5,Yg4g6,Yh5h6,Ge3g5,Gg5f6]}  27. Nxg5
+hxg5 28. Bxg5 Qd8 29. Bf6 Bh6 30. g5 Bg7 31. g4 Rc8 32. Rxa3 Qd7 33. Kg2 {
+[%cal Gf1h1,Gh1h5]}  33... Nf5 34. gxf5 Rxh5 35. Qd1 Rh8 36. Rh1 exf5 37. Rxh8+
+Bxh8 38. Qf3 { [%cal Rf5c8,Gd3f5]}  38... Bg7 39. Qh3 { [%cal
+Gd3f5,Rh3h7,Rh7g7]}  39... Rc7 40. Bxf5 Qxf5 41. Qxf5 Bf8 42. Qh3 Bg7 43. Ra7
+Bc8 44. Rxc7 Bxh3+ 45. Kg3 Be6 46. Rc6 Kh7 47. Rxb6 Kg6 48. Rb8 Kf5 49. Bxg7
+Bd7 50. b6 Ke4 51. b7 Bc6 52. e6 Bxb7 53. exf7 Kd3 54. f8=Q Bc8 55. Qxc8 Ke2
+56. Rb2+ Kd3 57. Qa6+ Kxc3 58. Qa3+ Kc4 59. Rb4#  1-0
+
+[Event "TCEC Season 16 - League 2"]
+[Site "http://tcec.chessdom.com"]
+[Date "2019.07.29"]
+[Round "2.4"]
+[White "Stoofvlees II a11"]
+[Black "Gull 3"]
+[Result "1-0"]
+[BlackElo "3600"]
+[ECO "C02"]
+[GameDuration "01:07:33"]
+[GameEndTime "2019-07-29T22:55:47.197 W. Europe Standard Time"]
+[GameStartTime "2019-07-29T21:48:13.296 W. Europe Standard Time"]
+[Opening "French"]
+[PlyCount "107"]
+[TerminationDetails "White mates"]
+[TimeControl "1800+5"]
+[Variation "advance, Euwe variation"]
+[WhiteElo "3715"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Bd7 { End of book}  5. Nf3 Nc6 6. Be2 Nge7 7.
+O-O cxd4 $5 { Strongest players deviate here  ( Ng6, for instance ) . This
+locks the center down and white gets a free attack with pawn pushes.[%cal
+Rf2f4,Rg2g4,Rh2h4]}  8. cxd4 Nf5 9. Nc3 a6 10. a3 $1 { Prophylaxis preventing
+Ng4. This is to prepare Bd3. [%csl Gb1,Gc2,Gd3][%cal Ge2d3,Rc6b4]}  10... Rc8
+11. Kh1 $1 $146 { Makes room for Rg1 or possibly even Ng1. [%csl
+Gd4,Ge5,Gd5,Ge6]}  11... Be7 12. g4 Nh4 $2 { After exchanges, white gets free
+f4 with tempo.}  13. Nxh4 Bxh4 14. f4 Be7 15. Be3 { Connects the rook and frees
+the queen from protecting d4.}  15... O-O 16. Bd3 { The point of a3 is now
+made: Nb4 is not possible.}  16... Na5 17. Qc2 g6 $6 { h6 was slighly better} 
+18. f5 { [%cal ]}  18... Bg5 { Only move; other moves would have trapped the
+bishop or lost the queen for mate threat}  ( { Avoiding the Qh6-g7# would now
+cost a queen } 18... Qe8 19. f6 Bd8 20. Qf2 Bxf6 21. exf6 Nc4 22. Qh4 Qd8 23.
+Qh6 Qxf6 24. Rxf6 )19. Bf4 { The point here is to get the rook on f4}  19...
+Bxf4 20. Rxf4 Qh4 { Had to be played to parry mate threats  ( Qf2-h4-h6-h7# ) 
+[%cal Gg8h8,Gf8g8,Gh4h6,Gh6f8,Yc2h4,Ya1h3,Yh7h5]}  ( 20... Nc4 21. Qf2 f6 22.
+fxe6 Bxe6 23. exf6 )21. Raf1 ( 21. f6 $2 Bb5 $1 ( 21... g5 22. Rf3 Qxg4 23. Rg3
+Qh5 )22. Bxb5 axb5 23. Rg1 Rc4 )21... Nc4 22. Qe2 b5 23. Nd1 Qh6 24. b3 Na5 25.
+Qf2 Qg7 26. f6 Qh8 27. b4 Nc6 ( 27... Nc4 { Would not change the outcome} )28.
+g5 Rfd8 29. Ne3 Rc7 30. Ng4 Rdc8 31. h4 Kf8 32. Qh2 h5 ( 32... Ke8 33. h5 Qf8
+34. hxg6 hxg6 35. R4f3 { [%cal Gf3h3,Gh3h8]}  35... Nxd4 36. Rh3 Bc6 37. Rh8
+)33. gxh6 Ke8 34. Qd2 a5 35. bxa5 Ra8 36. h5 g5 37. h7 gxf4 38. Nh6 { [%cal
+Gf1g1,Gg1g8]}  38... Nxe5 39. dxe5 Bc6 40. Rg1 Qxh7 41. Bxh7 Kd8 42. Kh2 Kc8
+43. Nxf7 Rxf7 44. Bg8 Rb8 45. Bxf7 Kb7 46. Bxe6 Rh8 47. Rg7+ Ka8 48. Qd4 Bb7
+49. Qb6 Rxh5+ 50. Kg2 Rg5+ 51. Rxg5 d4+ 52. Kf2 d3 53. Rg8+ Bc8 54. Rxc8#  1-0
 
