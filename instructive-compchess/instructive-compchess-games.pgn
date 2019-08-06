@@ -449,7 +449,7 @@ Bd7 50. b6 Ke4 51. b7 Bc6 52. e6 Bxb7 53. exf7 Kd3 54. f8=Q Bc8 55. Qxc8 Ke2
 [WhiteElo "3715"]
 
 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Bd7 { End of book}  5. Nf3 Nc6 6. Be2 Nge7 7.
-O-O cxd4 $5 { Strongest players deviate here  ( Ng6, for instance ) . This
+O-O cxd4 $5 { Strongest players deviate here  (  Ng6, for instance  )  . This
 locks the center down and white gets a free attack with pawn pushes.[%cal
 Rf2f4,Rg2g4,Rh2h4]}  8. cxd4 Nf5 9. Nc3 a6 10. a3 $1 { Prophylaxis preventing
 Ng4. This is to prepare Bd3. [%csl Gb1,Gc2,Gd3][%cal Ge2d3,Rc6b4]}  10... Rc8
@@ -462,8 +462,8 @@ made: Nb4 is not possible.}  16... Na5 17. Qc2 g6 $6 { h6 was slighly better}
 bishop or lost the queen for mate threat}  ( { Avoiding the Qh6-g7# would now
 cost a queen } 18... Qe8 19. f6 Bd8 20. Qf2 Bxf6 21. exf6 Nc4 22. Qh4 Qd8 23.
 Qh6 Qxf6 24. Rxf6 )19. Bf4 { The point here is to get the rook on f4}  19...
-Bxf4 20. Rxf4 Qh4 { Had to be played to parry mate threats  ( Qf2-h4-h6-h7# ) 
-[%cal Gg8h8,Gf8g8,Gh4h6,Gh6f8,Yc2h4,Ya1h3,Yh7h5]}  ( 20... Nc4 21. Qf2 f6 22.
+Bxf4 20. Rxf4 Qh4 { Had to be played to parry mate threats  (  Qf2-h4-h6-h7#  )
+ [%cal Gg8h8,Gf8g8,Gh4h6,Gh6f8,Yc2h4,Ya1h3,Yh7h5]}  ( 20... Nc4 21. Qf2 f6 22.
 fxe6 Bxe6 23. exf6 )21. Raf1 ( 21. f6 $2 Bb5 $1 ( 21... g5 22. Rf3 Qxg4 23. Rg3
 Qh5 )22. Bxb5 axb5 23. Rg1 Rc4 )21... Nc4 22. Qe2 b5 23. Nd1 Qh6 24. b3 Na5 25.
 Qf2 Qg7 26. f6 Qh8 27. b4 Nc6 ( 27... Nc4 { Would not change the outcome} )28.
@@ -473,4 +473,39 @@ g5 Rfd8 29. Ne3 Rc7 30. Ng4 Rdc8 31. h4 Kf8 32. Qh2 h5 ( 32... Ke8 33. h5 Qf8
 Gf1g1,Gg1g8]}  38... Nxe5 39. dxe5 Bc6 40. Rg1 Qxh7 41. Bxh7 Kd8 42. Kh2 Kc8
 43. Nxf7 Rxf7 44. Bg8 Rb8 45. Bxf7 Kb7 46. Bxe6 Rh8 47. Rg7+ Ka8 48. Qd4 Bb7
 49. Qb6 Rxh5+ 50. Kg2 Rg5+ 51. Rxg5 d4+ 52. Kf2 d3 53. Rg8+ Bc8 54. Rxc8#  1-0
+
+[Event "TCEC Season 16 - League 2"]
+[Site "http://tcec.chessdom.com"]
+[Date "2019.08.06"]
+[Round "23.1"]
+[White "Stoofvlees II a11"]
+[Black "chess22k 1.13"]
+[Result "1-0"]
+[BlackElo "3426"]
+[ECO "D05"]
+[GameDuration "00:48:26"]
+[GameEndTime "2019-08-06T05:03:18.321 W. Europe Standard Time"]
+[GameStartTime "2019-08-06T04:14:51.430 W. Europe Standard Time"]
+[Opening "Queen's pawn game, Rubinstein (Colle-Zukertort) variation"]
+[PlyCount "67"]
+[TerminationDetails "White mates"]
+[TimeControl "1800+5"]
+[WhiteElo "3715"]
+
+1. d4 Nf6 2. Nf3 e6 3. e3 c5 4. Bd3 d5 { End of book}  5. b3 { D05 - Colle
+System: Rubinstein Opening}  5... cxd4 $155 { This is perhaps releasing the
+tension too quickly. Further, the DSB does not get to the c5 square, as would
+happen with dxc5.
+
+Indeed, the mainline Nc6 scores significantly better than
+this move (29-41-30/612 vs 35-45-20/49; Lichess masters db)}  6. exd4 { [%csl
+Rc5]}  6... Nc6 { Instead of Nc6, the best move here is probably Bb4+, asking
+for white to play c3.}  7. Bb2 b6 { Still the more common plays were Bd6, Be7,
+or Bb4+. The b6 move seemingly helps the Bc8-g7 development, but it's not easy
+to see how black could break the center to liberate Bg7, if that was the plan.}
+ 8. Nbd2 $146 Bb7 9. a3 Bd6 10. Ne5 O-O 11. Qe2 Nd7 12. O-O Ncxe5 13. dxe5 Be7
+14. Nf3 Nc5 15. Nd4 Rc8 16. f4 g6 17. Rf3 a6 18. h4 Bxh4 19. Rh3 Be7 20. g4
+Nxd3 21. cxd3 b5 22. f5 Bg5 23. Qh2 h5 24. f6 Bh6 25. Rxh5 gxh5 26. Qxh5 Bf4
+27. Rf1 Qa5 28. b4 Qa4 29. g5 Rc1 30. Bxc1 Bh2+ 31. Qxh2 Qxb4 32. axb4 Bc6 33.
+Qh6 Ba8 34. Qg7#  1-0
 
