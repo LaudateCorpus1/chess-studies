@@ -495,17 +495,74 @@ Gf1g1,Gg1g8]}  38... Nxe5 39. dxe5 Bc6 40. Rg1 Qxh7 41. Bxh7 Kd8 42. Kh2 Kc8
 1. d4 Nf6 2. Nf3 e6 3. e3 c5 4. Bd3 d5 { End of book}  5. b3 { D05 - Colle
 System: Rubinstein Opening}  5... cxd4 $155 { This is perhaps releasing the
 tension too quickly. Further, the DSB does not get to the c5 square, as would
-happen with dxc5.
-
-Indeed, the mainline Nc6 scores significantly better than
-this move (29-41-30/612 vs 35-45-20/49; Lichess masters db)}  6. exd4 { [%csl
-Rc5]}  6... Nc6 { Instead of Nc6, the best move here is probably Bb4+, asking
-for white to play c3.}  7. Bb2 b6 { Still the more common plays were Bd6, Be7,
-or Bb4+. The b6 move seemingly helps the Bc8-g7 development, but it's not easy
-to see how black could break the center to liberate Bg7, if that was the plan.}
- 8. Nbd2 $146 Bb7 9. a3 Bd6 10. Ne5 O-O 11. Qe2 Nd7 12. O-O Ncxe5 13. dxe5 Be7
-14. Nf3 Nc5 15. Nd4 Rc8 16. f4 g6 17. Rf3 a6 18. h4 Bxh4 19. Rh3 Be7 20. g4
-Nxd3 21. cxd3 b5 22. f5 Bg5 23. Qh2 h5 24. f6 Bh6 25. Rxh5 gxh5 26. Qxh5 Bf4
-27. Rf1 Qa5 28. b4 Qa4 29. g5 Rc1 30. Bxc1 Bh2+ 31. Qxh2 Qxb4 32. axb4 Bc6 33.
-Qh6 Ba8 34. Qg7#  1-0
+happen with dxc5. Indeed, the mainline Nc6 scores significantly better than
+this move  (  29-41-30/612 vs 35-45-20/49; Lichess masters db  )}  6. exd4 {
+[%csl Rc5]}  6... Nc6 { Instead of Nc6, the best move here is probably Bb4+,
+asking for white to play c3.}  ( 6... Bb4+ 7. c3 )7. Bb2 { [%cal ]}  7... b6 {
+Much more common plays were Bd6, Be7, or Bb4+. The b6 move seemingly helps the
+Bc8-g7 development, but it's not easy to see how black could break the center
+to liberate Bg7, if that was the plan. Perhaps better idea was to play Bd7, and
+Bb5 later given a chance. [%csl Ye5][%cal Yc8b7,Gc8d7,Gd7b5]}  8. Nbd2 $146 {
+This is a flexible move:  ( a )  The knight is ready to hop in to f3 after the
+Nf3 knight moves; and  ( b )  it adds extra control d4 to discourage black's
+Ne4 f5 ideas; and  ( c )  it supports c4 push given chance. [%cal
+Gd2c4,Gf3e5,Yd2f3,Rd2e4]}  8... Bb7 9. a3 { Restricting black's play. Also,
+preparing to meet black's a/b pawn pushes, maintaining the possibility of
+blocking those pawns. [%csl Rb4][%cal Rc6b4,Rf8b4]}  9... Bd6 10. Ne5 O-O 11.
+Qe2 Nd7 $6 { While seemingly logical, asking white what to do with Ne5, the
+problem here is that an important K-side defender is displaced. White has
+pieces and pawns ready to start attacking.[%cal Yd3h7,Ye2h5]}  12. O-O {
+Castling supports the f-pawn push. That was probably the best idea, since f5
+would start to undermine black's already weakened control of the center. [%cal
+Gf2f5]}  12... Ncxe5 13. dxe5 Be7 { Bc5 would have been met with immediate b4
+with a loss of tempo. Bc7 would have blocked the rook on c-file. The best move
+was played.}  ( 13... Bc5 14. b4 Be7 )14. Nf3 { Now aiming for Nd4, blocking
+the d-pawn. Thus, keeping Bb7 off the play. Note that white's counterpart is
+significantly better, since it can reroute itself via c1 if necessary, and it
+supports the f-pawn push by protecting e5. [%cal Gf3d4]}  14... Nc5 15. Nd4 {
+[%cal Yd4f5,Yf2f5]}  15... Rc8 { Rooks belong to open files.}  16. f4 { If
+black was afraid of Bxh7+ or Qh5, there were always the options to play Nxd3 or
+h6. Stoofvlees was expecting Rc7.}  16... g6 $6 { While not outright losing, it
+can be questioned whether black had to weaken the K-side pawn structure. This
+opens new avenues for white to start attacking. [%cal
+Gf1f3,Gf3h3,Yh2h5,Yh5g6,Rd4f3,Rf3g5,Yg2g4,Yf4f5]}  ( 16... Rc7 { Before Rc7,
+the variation that had to be calculated carefully was Bxh7+. However, that was
+not mating, as black has just enough time to organize defenses.}  17. Bxh7+
+Kxh7 18. Qh5+ Kg8 19. Rf3 Qe8 20. Rh3 f5 21. Qh8+ Kf7 22. Qh5+ Kg8 23. Qh7+ Kf7
+)17. Rf3 { White wastes no time.}  17... a6 { But black wastes time. Black
+either needs to prepare for the attack by, e.g., Nxd3 and Kh8 and Rg8 to avoid
+pins and putting counter-pressure on the g-file; and/or prepare counterplay
+with Rc7 intending to make something happen on the semi-open c-file. Rc7 would
+also add a defender on the 7th rank provided Be7 moves somewhere and f5.}  (
+17... Kh8 18. h4 Rg8 )18. h4 { Here Stoofvlees's eval jumped. However,
+Stockfish still suggests that black is holding with Nxd3. [%cal Gb7c6,Gc6b5]} 
+18... Bxh4 $2 { This was a mistake. White has the semi-open h-file with strong
+attack potential. [%cal Gf3h3,Gh3h6,Ga1h1,Ge2h3]}  ( 18... Kh8 19. h5 )19. Rh3
+Be7 { Pawn to g4 was coming anyways, so the bishop needed to move either now,
+or a concrete plan was needed to meet the Qh2 follow-up. But there's no defense
+for black, anymore. So, let's find out how Stoofvlees finishes the game.}  (
+19... Rc7 20. g4 ( 20. Qg4 Nxd3 21. cxd3 Be7 22. Rh6 Kg7 23. f5 exf5 24. Qh3
+Rh8 25. e6 f6 26. Rf1 Kg8 27. b4 Bf8 28. Nxf5 gxf5 { M13}  ( { More resilient }
+28... d4 29. Qg3 Bd5 30. Re1 Rg7 31. Nxg7 Kxg7 32. Qh4 Be7 33. Bxd4 Qd6 34. Rf1
+Qxe6 35. Re1 Qd6 36. g4 ) 29. Rxf6 d4 30. Qxf5 Bg7 31. Rf7 Be4 32. dxe4 h6 33.
+Qg6 Rxf7 34. Rxf7 Rh7 35. Ra7 Qb8 36. e7 Qc8 37. Rc7 Qb8 38. Rd7 Qh2+ 39. Kxh2
+Kh8 40. Rd8+ Bf8 41. exf8=Q# )20... f6 21. Rxh4 fxe5 22. g5 exd4 23. Bxd4 Ne4
+$7 { Only move to prevent Bxg6 with a winning attack}  24. Bxb6 Qd6 25. Bxc7 )(
+19... Re8 20. Qg4 Nxd3 21. cxd3 Be7 22. Kf2 Bf8 23. Rah1 f5 24. exf6 Qxf6 25.
+Rxh7 )20. g4 { [%cal Ge2h2,Gh3h7]}  20... Nxd3 21. cxd3 b5 { [%cal
+Gc8c5,Gd8c8,Rf4f5]}  22. f5 Bg5 { The position is already pretty deperate.
+While allowing the bishop to get trapped with f6, the alternatives were not
+better.}  ( 22... exf5 23. Qh2 h5 24. gxf5 Bg5 25. Kh1 Qc7 26. Qg2 Qe7 27. Rg1
+f6 28. exf6 Bxf6 29. Qxg6+ { M13}  )( 22... Bc5 23. f6 Re8 24. Qh2 h5 25. Qf4
+Qb6 26. gxh5 Bxd4+ 27. Bxd4 { Most resilient now is ... Qxd4+ which is mate in
+13.}  )23. Qh2 h5 24. f6 Bh6 25. Rxh5 $1 { Nice finishing touch. This is the
+sharpest finish. With best play, M13. The final idea here is to get the queen
+to g7 with a mate. The bishop can be deterred with g5. That plan cannot be
+stopped.}  25... gxh5 { Be3+ would have postponed the inevitable by 1 move.}  (
+25... Be3+ { Most recilient defense.}  26. Kf1 gxh5 27. Qxh5 Qa5 28. b4 Qc7 29.
+Re1 Bf4 30. g5 Bxe5 31. Ne2 d4 32. Qh6 Bg2+ 33. Kf2 Bg3+ 34. Kxg2 Qc6+ 35. Kh3
+Qg2+ 36. Kxg2 Bxe1 37. Qg7# { 0.00}  )26. Qxh5 Bf4 27. Rf1 ( { Faster was to
+cut the bishop from defending. M7. } 27. g5)27... Qa5 28. b4 Qa4 29. g5 { Now
+the eventual Qg7# cannot be stopped, only delayed. [%cal Gh5h6,Gh6g7]}  29...
+Rc1 30. Bxc1 Bh2+ 31. Qxh2 Qxb4 32. axb4 Bc6 33. Qh6 Ba8 34. Qg7#  1-0
 
