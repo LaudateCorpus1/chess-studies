@@ -503,9 +503,9 @@ Much more common plays were Bd6, Be7, or Bb4+. The b6 move seemingly helps the
 Bc8-g7 development, but it's not easy to see how black could break the center
 to liberate Bg7, if that was the plan. Perhaps better idea was to play Bd7, and
 Bb5 later given a chance. [%csl Ye5][%cal Yc8b7,Gc8d7,Gd7b5]}  8. Nbd2 $146 {
-This is a flexible move:  ( a )  The knight is ready to hop in to f3 after the
-Nf3 knight moves; and  ( b )  it adds extra control d4 to discourage black's
-Ne4 f5 ideas; and  ( c )  it supports c4 push given chance. [%cal
+This is a flexible move:  (  a  )  The knight is ready to hop in to f3 after
+the Nf3 knight moves; and  (  b  )  it adds extra control d4 to discourage
+black's Ne4 f5 ideas; and  (  c  )  it supports c4 push given chance. [%cal
 Gd2c4,Gf3e5,Yd2f3,Rd2e4]}  8... Bb7 9. a3 { Restricting black's play. Also,
 preparing to meet black's a/b pawn pushes, maintaining the possibility of
 blocking those pawns. [%csl Rb4][%cal Rc6b4,Rf8b4]}  9... Bd6 10. Ne5 O-O 11.
@@ -541,28 +541,26 @@ attack potential. [%cal Gf3h3,Gh3h6,Ga1h1,Ge2h3]}  ( 18... Kh8 19. h5 )19. Rh3
 Be7 { Pawn to g4 was coming anyways, so the bishop needed to move either now,
 or a concrete plan was needed to meet the Qh2 follow-up. But there's no defense
 for black, anymore. So, let's find out how Stoofvlees finishes the game.}  (
-19... Rc7 20. g4 ( 20. Qg4 Nxd3 21. cxd3 Be7 22. Rh6 Kg7 23. f5 exf5 24. Qh3
-Rh8 25. e6 f6 26. Rf1 Kg8 27. b4 Bf8 28. Nxf5 gxf5 { M13}  ( { More resilient }
-28... d4 29. Qg3 Bd5 30. Re1 Rg7 31. Nxg7 Kxg7 32. Qh4 Be7 33. Bxd4 Qd6 34. Rf1
-Qxe6 35. Re1 Qd6 36. g4 ) 29. Rxf6 d4 30. Qxf5 Bg7 31. Rf7 Be4 32. dxe4 h6 33.
-Qg6 Rxf7 34. Rxf7 Rh7 35. Ra7 Qb8 36. e7 Qc8 37. Rc7 Qb8 38. Rd7 Qh2+ 39. Kxh2
-Kh8 40. Rd8+ Bf8 41. exf8=Q# )20... f6 21. Rxh4 fxe5 22. g5 exd4 23. Bxd4 Ne4
-$7 { Only move to prevent Bxg6 with a winning attack}  24. Bxb6 Qd6 25. Bxc7 )(
-19... Re8 20. Qg4 Nxd3 21. cxd3 Be7 22. Kf2 Bf8 23. Rah1 f5 24. exf6 Qxf6 25.
-Rxh7 )20. g4 { [%cal Ge2h2,Gh3h7]}  20... Nxd3 21. cxd3 b5 { [%cal
-Gc8c5,Gd8c8,Rf4f5]}  22. f5 Bg5 { The position is already pretty deperate.
-While allowing the bishop to get trapped with f6, the alternatives were not
-better.}  ( 22... exf5 23. Qh2 h5 24. gxf5 Bg5 25. Kh1 Qc7 26. Qg2 Qe7 27. Rg1
-f6 28. exf6 Bxf6 29. Qxg6+ { M13}  )( 22... Bc5 23. f6 Re8 24. Qh2 h5 25. Qf4
-Qb6 26. gxh5 Bxd4+ 27. Bxd4 { Most resilient now is ... Qxd4+ which is mate in
-13.}  )23. Qh2 h5 24. f6 Bh6 25. Rxh5 $1 { Nice finishing touch. This is the
-sharpest finish. With best play, M13. The final idea here is to get the queen
-to g7 with a mate. The bishop can be deterred with g5. That plan cannot be
-stopped.}  25... gxh5 { Be3+ would have postponed the inevitable by 1 move.}  (
-25... Be3+ { Most recilient defense.}  26. Kf1 gxh5 27. Qxh5 Qa5 28. b4 Qc7 29.
-Re1 Bf4 30. g5 Bxe5 31. Ne2 d4 32. Qh6 Bg2+ 33. Kf2 Bg3+ 34. Kxg2 Qc6+ 35. Kh3
-Qg2+ 36. Kxg2 Bxe1 37. Qg7# { 0.00}  )26. Qxh5 Bf4 27. Rf1 ( { Faster was to
-cut the bishop from defending. M7. } 27. g5)27... Qa5 28. b4 Qa4 29. g5 { Now
-the eventual Qg7# cannot be stopped, only delayed. [%cal Gh5h6,Gh6g7]}  29...
-Rc1 30. Bxc1 Bh2+ 31. Qxh2 Qxb4 32. axb4 Bc6 33. Qh6 Ba8 34. Qg7#  1-0
+19... Rc7 20. Qg4 ( 20. g4 f6 21. Rxh4 fxe5 22. g5 exd4 23. Bxd4 Ne4 $7 { Only
+move to prevent Bxg6 with a winning attack}  24. Bxb6 Qd6 25. Bxc7 )20... Nxd3
+21. cxd3 Be7 22. Rh6 Kg7 23. f5 exf5 24. Qh3 Rh8 25. e6 f6 26. Rf1 Kg8 27. Nxf5
+Bc5+ 28. Nd4 Rg7 29. b4 Be7 30. Ne2 a5 31. Qe3 Bc8 32. Bd4 axb4 33. axb4 Qd6
+34. Bxf6 Qxe6 35. Qd4 Bf8 36. Rh4 h5 37. Nf4 Qd6 38. Be5 Qxb4 39. Qxd5+ Rf7 40.
+Bxh8 Qc5+ 41. Bd4 Qxd5 42. Nxd5 )( 19... Re8 20. Qg4 Nxd3 21. cxd3 Be7 22. Kf2
+Bf8 23. Rah1 f5 24. exf6 Qxf6 25. Rxh7 )20. g4 { [%cal Ge2h2,Gh3h7]}  20...
+Nxd3 21. cxd3 b5 { [%cal Gc8c5,Gd8c8,Rf4f5]}  22. f5 Bg5 { The position is
+already pretty desperate. While allowing the bishop to get trapped with f6, the
+alternatives were not better.}  ( 22... exf5 23. Qh2 h5 24. gxf5 Bg5 25. Kh1
+Qc7 26. Qg2 Qe7 27. Rg1 f6 28. exf6 Bxf6 29. Qxg6+ { M13}  )( 22... Bc5 23. f6
+Re8 24. Qh2 h5 25. Qf4 Qb6 26. Rxh5 )23. Qh2 h5 24. f6 Bh6 25. Rxh5 $1 { Nice
+finishing touch. This is the sharpest finish. With best play, M13. The final
+idea here is to get the queen to g7 with a mate. The bishop can be deterred
+with g5. That plan cannot be stopped.}  25... gxh5 { Be3+ would have postponed
+the inevitable by 1 move.}  ( 25... Be3+ { Most recilient defense.}  26. Kf1
+gxh5 27. Qxh5 Qa5 28. b4 Qc7 29. Re1 Bf4 30. g5 Bxe5 31. Ne2 d4 32. Qh6 Bg2+
+33. Kf2 Bg3+ 34. Kxg2 Qc6+ 35. Kh3 Qg2+ 36. Kxg2 Bxe1 37. Qg7# { 0.00}  )26.
+Qxh5 Bf4 27. Rf1 ( { Faster was to cut the bishop from defending. M7. } 27.
+g5)27... Qa5 28. b4 Qa4 29. g5 { Now the eventual Qg7# cannot be stopped, only
+delayed. [%cal Gh5h6,Gh6g7]}  29... Rc1 30. Bxc1 Bh2+ 31. Qxh2 Qxb4 32. axb4
+Bc6 33. Qh6 Ba8 34. Qg7#  1-0
 

@@ -19,7 +19,8 @@ BASEDIR:=..
 TARGETS:=\
 	instructive-compchess-games.pdf \
 	tcec-s15-bonus-g2.pdf \
-	tcec-s15-sufi-g12.pdf
+	tcec-s15-sufi-g12.pdf \
+	tcec-s16-l2-r23-1.pdf
 
 include $(BASEDIR)/mk/help.mk
 include $(BASEDIR)/mk/latex.mk
