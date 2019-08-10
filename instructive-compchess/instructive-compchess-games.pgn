@@ -449,30 +449,67 @@ Bd7 50. b6 Ke4 51. b7 Bc6 52. e6 Bxb7 53. exf7 Kd3 54. f8=Q Bc8 55. Qxc8 Ke2
 [WhiteElo "3715"]
 
 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Bd7 { End of book}  5. Nf3 Nc6 6. Be2 Nge7 7.
-O-O cxd4 $5 { Strongest players deviate here  (  Ng6, for instance  )  . This
-locks the center down and white gets a free attack with pawn pushes.[%cal
-Rf2f4,Rg2g4,Rh2h4]}  8. cxd4 Nf5 9. Nc3 a6 10. a3 $1 { Prophylaxis preventing
-Ng4. This is to prepare Bd3. [%csl Gb1,Gc2,Gd3][%cal Ge2d3,Rc6b4]}  10... Rc8
-11. Kh1 $1 $146 { Makes room for Rg1 or possibly even Ng1. [%csl
-Gd4,Ge5,Gd5,Ge6]}  11... Be7 12. g4 Nh4 $2 { After exchanges, white gets free
-f4 with tempo.}  13. Nxh4 Bxh4 14. f4 Be7 15. Be3 { Connects the rook and frees
-the queen from protecting d4.}  15... O-O 16. Bd3 { The point of a3 is now
-made: Nb4 is not possible.}  16... Na5 17. Qc2 g6 $6 { h6 was slighly better} 
-18. f5 { [%cal ]}  18... Bg5 { Only move; other moves would have trapped the
-bishop or lost the queen for mate threat}  ( { Avoiding the Qh6-g7# would now
-cost a queen } 18... Qe8 19. f6 Bd8 20. Qf2 Bxf6 21. exf6 Nc4 22. Qh4 Qd8 23.
-Qh6 Qxf6 24. Rxf6 )19. Bf4 { The point here is to get the rook on f4}  19...
-Bxf4 20. Rxf4 Qh4 { Had to be played to parry mate threats  (  Qf2-h4-h6-h7#  )
- [%cal Gg8h8,Gf8g8,Gh4h6,Gh6f8,Yc2h4,Ya1h3,Yh7h5]}  ( 20... Nc4 21. Qf2 f6 22.
-fxe6 Bxe6 23. exf6 )21. Raf1 ( 21. f6 $2 Bb5 $1 ( 21... g5 22. Rf3 Qxg4 23. Rg3
-Qh5 )22. Bxb5 axb5 23. Rg1 Rc4 )21... Nc4 22. Qe2 b5 23. Nd1 Qh6 24. b3 Na5 25.
-Qf2 Qg7 26. f6 Qh8 27. b4 Nc6 ( 27... Nc4 { Would not change the outcome} )28.
-g5 Rfd8 29. Ne3 Rc7 30. Ng4 Rdc8 31. h4 Kf8 32. Qh2 h5 ( 32... Ke8 33. h5 Qf8
-34. hxg6 hxg6 35. R4f3 { [%cal Gf3h3,Gh3h8]}  35... Nxd4 36. Rh3 Bc6 37. Rh8
-)33. gxh6 Ke8 34. Qd2 a5 35. bxa5 Ra8 36. h5 g5 37. h7 gxf4 38. Nh6 { [%cal
-Gf1g1,Gg1g8]}  38... Nxe5 39. dxe5 Bc6 40. Rg1 Qxh7 41. Bxh7 Kd8 42. Kh2 Kc8
-43. Nxf7 Rxf7 44. Bg8 Rb8 45. Bxf7 Kb7 46. Bxe6 Rh8 47. Rg7+ Ka8 48. Qd4 Bb7
-49. Qb6 Rxh5+ 50. Kg2 Rg5+ 51. Rxg5 d4+ 52. Kf2 d3 53. Rg8+ Bc8 54. Rxc8#  1-0
+O-O cxd4 $5 { Strongest players deviate here with Ng6, for instance. The
+problem with this move is that it locks down the center and white gets a free
+attack with pawn pushes. Maybe it was better to build up pressure with Qb6, for
+instance.
+
+Usually, black has 2 pawn breaks in French (well-timed cxd4 and d6),
+but now there's only f6 left.
+[%cal Rf2f4,Rg2g4,Rh2h4]}  8. cxd4 Nf5 9. Nc3 a6
+10. a3 $1 { Prophylaxis. This is to prepare Bd3. Without a3, Bd3 would be met
+with Ng4. Also, Bg4 is prevented.  [%csl Gb1,Gc2,Gd3][%cal Ge2d3,Rc6b4]}  10...
+Rc8 { Rooks belong in open files.}  11. Kh1 $1 $146 { Makes room for Rg1 or
+possibly even Ng1, preparing for an all out attack. [%csl Gd4,Ge5,Gd5,Ge6]} 
+11... Be7 12. g4 Nh4 { After exchanges, white gets free f4 with tempo. However,
+the damage was already done, and this was the best move for black.}  13. Nxh4
+Bxh4 14. f4 Be7 15. Be3 { Connects the rook and frees the queen from protecting
+d4. Enables Bd3.}  15... O-O { This is not a pretty move to make: castling
+straight into attack.}  16. Bd3 { The point of a3 is now made: Nb4 is not
+possible.}  16... Na5 $2 { The time for the thematic f6 break was now. The
+knight will now be out of play for the rest of the game.}  ( 16... f6 $1 17.
+Qc2 fxe5 18. fxe5 Rxf1+ 19. Rxf1 Nxe5 20. dxe5 d4 21. Bxh7+ Kh8 22. Bxd4 Rc4
+23. Be4 { White has to give the piece back. Trying to save it would lose the
+queen.}  ( 23. Be3 $4 Bc6+ 24. Kg1 Rxg4+ 25. Kf2 Rg2+ )23... Rxd4 )17. Qc2 {
+Asking black to weaken the king pawns.}  17... g6 $6 { h6 was slighly better.
+g6 weakens the dark squares.}  18. f5 { [%cal ]}  18... Bg5 $7 { Only move;
+other moves would have trapped the bishop or lost the queen for mate threat}  (
+18... Qe8 19. f6 Bd8 20. Qf2 Rc6 21. Qh4 )( 18... Re8 19. fxg6 fxg6 20. Bxg6
+hxg6 21. Qxg6+ { Mate in 2}  )( 18... exf5 19. gxf5 Bg5 20. Qe2 Bxe3 21. Qxe3
+Qh4 22. Rf4 Qh6 23. fxg6 fxg6 24. Rxf8+ Qxf8 25. Rf1 Qg7 26. e6 Be8 27. Rf3 Kh8
+28. Nxd5 Bc6 29. Rf7 { White simply has too many threats and overruns black} 
+)( 18... gxf5 $2 19. gxf5 exf5 20. Rg1+ Kh8 21. Bh6 Rg8 22. Rxg8+ Qxg8 23. Rg1
+{ Any attempt to save the queen will result in quick mate}  23... Qd8 24. Qg2 {
+And black has only delaying moves available}  )19. Bf4 { The point here is to
+get the rook on f4.}  19... Bxf4 { Black could not realistically prevent Rxf4.
+If black played something else, f6 would have soon followed cutting the support
+to the bishop.}  20. Rxf4 Qh4 { Had to be played to parry mate and crash
+through threats}  ( 20... Nc4 21. Qf2 f6 22. fxe6 Bxe6 23. exf6 )21. Raf1 $1 {
+Supporting the rook on f4, preparing now for f6 and g5 and black does not have
+time to make room for the queen on f8.}  ( 21. f6 $2 { Premature f6 would close
+black's king-side and slow the attack. White is still better and black has to
+keep eye on g7 permanently. However, black has time to interfere and start
+active counter-play on the queen-side, and play the queen to f8.}  21... Nc4
+22. Rg1 Rc7 23. Qe2 Qg5 24. Rgf1 Rfc8 25. Bxc4 Rxc4 26. Qf2 Qh6 27. g5 Qf8 {
+The major difference to the game play is that the queen does not get prisoned
+in the h8 square.}  )21... Nc4 ( 21... Rfd8 22. fxg6 fxg6 23. Bxg6 hxg6 24.
+Qxg6+ { And the attack is unstoppable}  )22. Qe2 b5 23. Nd1 Qh6 { The queen is
+running out of squares.}  24. b3 Na5 ( 24... Nxa3 { Would not matter} )25. Qf2
+Qg7 26. f6 Qh8 27. b4 Nc6 ( 27... Nc4 { Would not change the outcome} )28. g5
+Rfd8 29. Ne3 Rc7 30. Ng4 Rdc8 31. h4 Kf8 32. Qh2 h5 ( 32... Ke8 33. h5 Qf8 34.
+hxg6 hxg6 35. R4f3 { [%cal Gf3h3,Gh3h8]}  35... Nxd4 36. Rh3 Bc6 37. Rh8 )33.
+gxh6 Ke8 34. Qd2 a5 35. bxa5 Ra8 36. h5 g5 37. h7 $1 gxf4 38. Nh6 { Now the
+Rg1-g8 plan can only be stopped by sacrificing material. Nxf7 attacking the
+promotion square could also be played given an opportunity. [%cal Gf1g1,Gg1g8]}
+ 38... Nxe5 39. dxe5 { Forced mate in 15 with best play. Both sides made some
+small inaccuracies here which would not change the outcome.}  39... Bc6 40. Rg1
+Qxh7 ( { The most resilient defense } 40... d4+ 41. Kh2 Kd7 42. Nxf7 Qf8 43.
+Rg7 Kc8 44. Nd6+ Kd8 45. Qc1 Rb8 46. Qc5 Bd7 47. Nb7+ Kc8 48. Qxf8+ Kxb7 49.
+Qd6 Ka7 50. Qxc7+ Rb7 51. Qc5+ Ka6 52. Rxd7 Kxa5 53. Rxb7 Ka6 54. Qb6# { 0.00} 
+)41. Bxh7 Kd8 42. Kh2 Kc8 43. Nxf7 Rxf7 44. Bg8 Rb8 { Desperate moves, as black
+was already facing a forced mate.}  45. Bxf7 Kb7 46. Bxe6 Rh8 47. Rg7+ Ka8 48.
+Qd4 Bb7 49. Qb6 Rxh5+ 50. Kg2 Rg5+ 51. Rxg5 d4+ 52. Kf2 d3 53. Rg8+ Bc8 54.
+Rxc8#  1-0
 
 [Event "TCEC Season 16 - League 2"]
 [Site "http://tcec.chessdom.com"]
