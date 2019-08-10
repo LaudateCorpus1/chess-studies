@@ -16,16 +16,21 @@
 
 \chessgame{Stoofvlees II a11}{chess22k 1.13}%
           {TCEC S16 League 2, Round 23.1}%
-          {D05 D05 - Colle System: Rubinstein Opening}%
+          {D05 - Colle System: Rubinstein Opening}%
           {2019-08-06}
 
-Chess against a strong opponent can be a brutal game.
+Chess against a strong opponent can be a brutal endeavour, as black
+found out in this game the hard way. Black started with some small
+inaccuracies in the opening, which culminated in a strategic blunder
+in the middle game. An engine as strong as Stoofvlees would not let
+such opportunity pass.
 
-Following concepts exemplified:
+Main points:
 \begin{enumerate}
-\item
+\item Opening discussion
+\item Positional defensive weaknesses
+\item Attacking tactics
 \end{enumerate}
-
 
 \mainline{1. d4 Nf6 2. Nf3 e6 3. e3 c5 4. Bd3 d5}
 
@@ -33,13 +38,13 @@ End of the opening book.
 
 \mainline{5. b3 cxd4?!}
 
-Black is perhaps releasing the tension a bit too quickly. Further, the
-dark square bishop does not get to the c5 square, as would happen if
-white could be persuaded to play \wmove{dxc5.} And indeed, the
-mainline \bmove{Nc6} scores significantly better than the move
-played.\footnote{\movecomment{5... Nc6} 29\%-41\%-30\%/612
-games; \movecomment{5... cxd4} 35\%-45\%-20\%/49 games; Lichess masters
-database accessed on \printdate{2019-08-08}.}
+Black is perhaps releasing the tension a bit too eagerly. Now the dark
+square bishop does not get an access to the c5 square, as would happen
+if white could be persuaded to play \wmove{dxc5.} And indeed, the
+mainline \movecomment{5... Nc6} scores significantly better than the
+move played.\footnote{\movecomment{5... Nc6} 29\%-41\%-30\%/612
+games; \movecomment{5... cxd4} 35\%-45\%-20\%/49 games; Lichess
+masters database accessed on \printdate{2019-08-08}.}
 
 \mainline{6. exd4 Nc6!?}
 
@@ -60,32 +65,42 @@ here.
 
 \mainline{8. Nbd2\novelty}
 
+\chessboard[
+        pgfstyle=straightmove,
+        color=blue, markmoves={c2-c4},
+        pgfstyle=knightmove,
+        color=blue,  markmoves={d2-c4},
+        color=green, markmoves={d2-f3, f3-e5},
+        color=red,   markmoves={d2-e4},
+        color=red!30, pgfstyle=color, colorbackfields={e4}]
+
 This is a flexible move:
 \begin{enumerate}
 \item The knight is ready to
-hop in to f3 after the Nf3 knight moves; and
+hop in to f3 after the Nf3 knight moves to, say, e5 (green); and
 \item Extra control is added on \wmove{d4} to discourage black's
-potential \wmove{Ne4}, \wmove{f5} ideas; and
-\item Support for c4 push is added.
+potential \wmove{Ne4}, \wmove{f5} ideas (red); and
+\item Support for the potential c4 push is added (blue).
 \end{enumerate}
 
 \mainline{8... Bb7 9. a3}
 
 Restricting black's play by preventing \wmove{Ng4} and \wmove{Bg4.}
-Also, preparing to meet black's a/b pawn pushes, maintaining the
-option of fixing the queenside pawns.
+Also, preparing to meet black's a/b pawn pushes by adding the option
+of fixing the queen-side pawns.
 
 \mainline{9... Bd6 10. Ne5 O-O 11. Qe2 Nd7?!}
 
-While seemingly logical asking white what to do with \wmove{Ne5}, the problem here
-is that an important kingside defender is displaced. White has pieces
-and pawns ready for an attack against the king.
+While seemingly logical in asking white what to do with \wmove{Ne5},
+the problem here is that an important king-side defender is
+displaced. White has pieces and pawns ready for an attack against the
+king.
 
 \mainline{12. O-O}
 
-Castling supports the f-pawn push. That was probably the best idea,
-since \wmove{f5} would start to undermine black's already weakened control of
-the center.
+Castling supports the f-pawn push. That was probably the best
+attacking idea available. Pawn to \wmove{f5} would begin to question
+black's already weakened control of the center.
 
 \mainline{12... Ncxe5 13. dxe5 Be7}
 
@@ -106,23 +121,27 @@ push nicely by protecting e5.
 
 Rooks belong to open files.
 
-\mainline{16. f4}
+\mainline{16. f4 g6?!}
 
-\mainline{16... g6?!}
+\chessboard[
+        color=red!30, colorbackfields={f6,h6,g7}]
 
 While not outright losing, it can be questioned whether black had to
-weaken the kingside pawn structure, and particularly the dark
-squares. This opens new avenues for white to start attacking.
+weaken the king-side pawn structure, and particularly the dark
+squares. In fact, this move can be considered as a strategic blunder,
+as it opens new avenues for white's attack.
 
 If black was afraid of \wmove{Bxh7+} or \wmove{Qh5}, the moves here to
-play were either \wmove{Nxd3} or \wmove{h6.} Stoofvlees was
-expecting \wmove{Rc7.}
+play were either \wmove{Nxd3} or \wmove{h6.}
 
-Before playing \bmove{Rc7}, the move that had to be calculated carefully was
-\wmove{Bxh7+.} However, that was not mating, as black is just in time to
-organize defenses. Variation \variation{16... Rc7 17. Bxh7+
-Kxh7 18. Qh5+ Kg8 19. Rf3 Qe8 20. Rh3 f5 21. Qh8+ Kf7 22. Qh5+ Kg8
-23. Qh7+ Kf7} would end peacefully.
+Stoofvlees was expecting \wmove{Rc7,} which adds defenses for
+the \nth{7} rank and prepares for counterplay in the c-file. But
+before playing \bmove{Rc7}, the move that had to be calculated
+carefully was \wmove{Bxh7+.} But it turns out that the bishop
+sacrifice would not have been mating, as black is just in time to
+organize defenses. Variation \variation{16... Rc7 17. Bxh7+ Kxh7
+18. Qh5+ Kg8 19. Rf3 Qe8 20. Rh3 f5 21. Qh8+ Kf7 22. Qh5+ Kg8 23. Qh7+
+Kf7} would end peacefully.
 
 \mainline{17. Rf3 a6}
 
@@ -131,27 +150,30 @@ either needed to start diluting and preparing for the attack by,
 e.g., \wmove{Nxd3}, \wmove{Kh8}, and \wmove{Rg8} to avoid pins and
 putting counter-pressure on the g-file; and/or start preparing active
 counterplay with \wmove{Rc7} intending to make something happen on the
-semi-open c-file. \wmove{Rc7} would also add a defender on the 7th
+semi-open c-file. \wmove{Rc7} would also add a defender on the nth{7}
 rank provided \wmove{Be7} moves somewhere with \wmove{f5.}
 
 \mainline{18. h4}
 
 Stoofvlees offers a pawn in hope for opening files for attack. With
-this move, Stoofvlees's evaluation jumped a bit. However, Stockfish
-still suggests that black is still holding with \wmove{Nxd3.}
+this Greek gift that should not be accepted, Stoofvlees's evaluation
+jumped a bit. However, Stockfish suggests that black is still holding
+with \wmove{Nxd3.}
 
 \mainline{18... Bxh4?}
+
+\chessboard
 
 Black was too greedy. White has now the h-file available with strong
 attack potential, and an engine as strong as Stoofvlees will not miss
 the opportunity.
 
-\mainline{19. Rh3 Be7}
+\mainline{19. Rh3! Be7}
 
 Pawn to \wmove{g4} is coming, so the bishop needed to run either now,
-or a concrete plan was needed to meet the following \wmove{Qh2.} But
-regardless, there's no defense anymore for black if white plays
-precisely.
+or a concrete plan was needed to meet the follow-up move \wmove{Qh2.}
+But regardless, there is no more defense anymore for black if white
+plays precisely.
 
 An example line: \variation{19... Rc7 20. Qg4 Nxd3 21. cxd3 Be7
 22. Rh6 Kg7 23. f5! exf5 24. Qh3 Rh8 25. e6! f6 26. Rf1 Kg8 27. Nxf5!
@@ -162,8 +184,8 @@ easily with an extra rook.
 
 \mainline{20. g4 Nxd3 21. cxd3 b5 22. f5 Bg5}
 
-The position is already pretty desperate. While allowing the bishop to
-get trapped with \wmove{f6,} the alternatives were not better. For
+The position is already desperate. While allowing the bishop to get
+trapped with \wmove{f6,} the alternatives were not much better. For
 example:
 
 \begin{enumerate}[label=(\alph*)]
@@ -174,9 +196,13 @@ example:
 25. Qf4 Qb6 26. Rxh5} with mate in 10.
 \end{enumerate}
 
-\mainline{23. Qh2 h5 24. f6 Bh6 25. Rxh5!}
+\mainline{23. Qh2 h5 24. f6 Bh6}
 
-Nice finishing touch. With best play, mate would follow in 12 more
+\chessboard
+
+\mainline{25. Rxh5!}
+
+Nice finishing touch. With the best play, mate would follow in 12 more
 moves. The final idea here is to force the queen to g7 with an
 unstoppable mate. The bishop can be dealt with g5.
 

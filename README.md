@@ -10,12 +10,18 @@ This is a study of instructive computer chess games.
 
 TCEC Season 15
 
-- Superfinal Game 12
+- Stockfish vs Leela Superfinal Game 12
   [[Analysis (PDF)](instructive-compchess/tcec-s15-sufi-g12.pdf)] ---
   TCEC archive [[link](https://cd.tcecbeta.club/archive.html?season=15&div=sf&game=12)]
 - Bonus: Bluefish vs Leela Jhorthos Game 2
   [[Analysis (PDF)](instructive-compchess/tcec-s15-bonus-g2.pdf)] ---
   TCEC archive [[link](https://cd.tcecbeta.club/archive.html?season=bonus&div=fun_bonus&game=2)]
+
+TCEC Season 16
+
+- League 2 round 23.1: Stoofvlees II a11 – chess22k
+  [[Analysis (PDF)](instructive-compchess/tcec-s16-l2-r23-1.pdf)] ---
+  TCEC archive [[link](https://cd.tcecbeta.club/archive.html?season=16&div=l2&game=177)]
 
 ## Building from sources
 
