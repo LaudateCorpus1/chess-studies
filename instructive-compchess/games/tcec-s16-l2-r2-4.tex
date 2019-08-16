@@ -24,7 +24,9 @@
 
 End of book
 
-\mainline{5. Nf3 Nc6 6. Be2 Nge7 7. O-O cxd4!?}
+\mainline{5. Nf3 Nc6 6. Be2 Nge7 7. O-O cxd4!? 8. cxd4}
+
+\chessboard
 
 The more common moves were \movecomment{7... Ng6}
 and \movecomment{7... Nf5.} The problem with \movecomment{7... cxd4}
@@ -32,10 +34,10 @@ is that it locks down the center and white gets a free attack with
 king-side pawn pushes. Maybe it was better not to release the tension
 too early and play moves such as \bmove{Qb6,} for instance. Usually,
 black wants to keep 2 pawn break options in French
-(well-timed \wmove{cxd4} and \wmove{d6}), but now there's only
+(well-timed \wmove{cxd4} and \wmove{f6}), but now there's only
 the \bmove{f6} break available after the unfavorable break.
 
-\mainline{8. cxd4 Nf5 9. Nc3 a6 10. a3!}
+\mainline{8... Nf5 9. Nc3 a6 10. a3!}
 
 Prophylaxis. This is to prepare \wmove{Bd3.}
 Without \wmove{a3,} \wmove{Bd3} would be met with \bmove{Ng4.}
@@ -61,9 +63,14 @@ damage was already done and this was the best move for black.
 Now protecting the pawn on d4 by the dark square bishop,
 enabling \wmove{Bd3.}
 
-\mainline{15... O-O}
+\chessboard
 
-This is not a pretty move to make: castling straight into attack.
+\mainline{15... O-O?!}
+
+This is not a pretty move to make: castling straight into attack. Both
+Leela and Stockfish preferred \movecomment{15... Na5} with a
+follow-up \bmove{Nc4}, instead. For example: \movecomment{15... Na5
+16. f5 Nc4 17. Bxc4 Rxc4} with play for both sides.
 
 \mainline{16. Bd3}
 
@@ -71,8 +78,11 @@ The point of \wmove{a3} is now made: \bmove{Nb4} is not possible here.
 
 \mainline{16... Na5?}
 
-The time for the thematic \bmove{f6} break was now. The knight is now
-where the action is not.
+The time for the thematic \bmove{f6} break was now to undermine
+white's attack. But here, a critical tempo is lost and the knight is
+where the action is not. The fact that black has castled makes all the
+difference for white's attack, and white does not give black time to
+play \bmove{Nc4} until the position is beyond repair.
 
 \variation{16... f6! 17.  Qc2 fxe5 18. fxe5 Rxf1+ 19. Rxf1 Nxe5
 20. dxe5 d4 21. Bxh7+ Kh8 22. Bxd4 Rc4 23. Be4.} White has to give the
@@ -87,10 +97,14 @@ Asking black to weaken the king pawns.
 
 \mainline{17... g6?!}
 
-Pawn to \wmove{h6} was slighly better, as the pawn move \wmove{g6}
-weakens the dark squares.
+Pawn to \wmove{h6} was better, as the pawn move \wmove{g6} weakens the
+dark squares.
 
-\mainline{18. f5 Bg5\onlymove}
+\mainline{18. f5}
+
+\chessboard
+
+\mainline{18... Bg5\onlymove}
 
 Only move. Other moves would have trapped the bishop or lost the queen
 to stop the mating threat.
@@ -146,22 +160,42 @@ The queen is being forced towards her prison on h8.
 \mainline{24. b3 Na5}
 
 Taking the pawn instead with \variation{24... Nxa3} would not have
-changed anything. Now the queen is forced to the corner.
+changed anything, since black will not have time to enjoy the extra
+pawns. Now white forces the black queen to the corner where it will
+sit as the saddest piece of the board.
 
 \mainline{25. Qf2 Qg7}
 
-Black haa to add protection to the f7 square to prevent white crashing
-through with \wmove{Rxf7} after \wmove{fxg6.} And interesting try was
+Black had to add protection to the f7 square to prevent white crashing
+through with \wmove{Rxf7} after \wmove{fxg6.} An interesting try was
 to take the pawn on f5 with the e-pawn: \variation{25... exf5 26. gxf5
 g5 27. Rf3 f6 28. Qg2 Qg7 29. Ne3 Kh8 30. Ng4 Rc6 31. Rg3 Rg8
 32. Qxd5,} but this does not work out for black, either.
 
-\mainline{26. f6 Qh8 27. b4 Nc6 28. g5 Rfd8 29. Ne3 Rc7
-30. Ng4 Rdc8 31. h4 Kf8 32. Qh2 h5}
+\mainline{26. f6 Qh8 27. b4 Nc6 28. g5 Rfd8}
 
-\variation{32... Ke8 33. h5 Qf8 34. hxg6 hxg6 35. R4f3 Nxd4 36. Rh3 Bc6 37. Rh8}
+\chessboard
 
-\mainline{33. gxh6 Ke8 34. Qd2 a5 35. bxa5 Ra8 36. h5 g5 37. h7! gxf4 38. Nh6}
+The black rook side-steps to prevent \movecomment{29. Bxg6!} crashing
+through. If the bishop is taken, then either \movecomment{30. f7+}
+or \movecomment{30. Rh4,} both winning decisively.
+
+White now brings the knight and the h-pawn into attack to force a
+break through black's defenses.
+
+\mainline{29. Ne3 Rc7 30. Ng4 Rdc8 31. h4 Kf8 32. Qh2 h5}
+
+Black tries to close the pawn structure, but white of course will not
+allow that.
+
+\mainline{33. gxh6 Ke8 34. Qd2 a5 35. bxa5 Ra8 36. h5!}
+\chessboard
+
+White is now opening the g-file forcibly. The plan after that is
+simple: Rook to g8 to win the queen and/or to support promotion of the
+more advanced h-pawn. There is no feasible way to stop white's plan.
+
+\mainline{36... g5 37. h7! gxf4 38. Nh6}
 
 Now the Rg1-g8 plan can only be stopped by sacrificing material. Nxf7
 attacking the promotion square could also be played given an
