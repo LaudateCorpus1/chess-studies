@@ -601,3 +601,86 @@ g5)27... Qa5 28. b4 Qa4 29. g5 { Now the eventual Qg7# cannot be stopped, only
 delayed. [%cal Gh5h6,Gh6g7]}  29... Rc1 30. Bxc1 Bh2+ 31. Qxh2 Qxb4 32. axb4
 Bc6 33. Qh6 Ba8 34. Qg7#  1-0
 
+[Event "TCEC Season 16 - League 1"]
+[Site "http://tcec.chessdom.com"]
+[Date "2019.08.16"]
+[Round "11.8"]
+[White "Stoofvlees II a12"]
+[Black "ScorpioNN v2.9.2-n_maddex_INT8"]
+[Result "1-0"]
+[BlackElo "3655"]
+[ECO "E62"]
+[GameDuration "01:38:13"]
+[GameEndTime "2019-08-16T23:33:20.102 W. Europe Standard Time"]
+[GameStartTime "2019-08-16T21:55:06.248 W. Europe Standard Time"]
+[Opening "King's Indian"]
+[PlyCount "137"]
+[TerminationDetails "Black resigns"]
+[TimeControl "2700+5"]
+[Variation "fianchetto, lesser Simagin (Spassky) variation"]
+[WhiteElo "3759"]
+
+1. Nf3 Nf6 2. c4 g6 3. d4 Bg7 4. g3 O-O 5. Bg2 d6 6. Nc3 Nc6 { End of book}  7.
+O-O Bf5 8. d5 Na5 9. b3 $1 $146 { Essentially offering an exchange after Ne4.
+Nd2/Nd4 are the main theoretical moves. Bd2 and Nh4 also tried.}  9... Ne4 10.
+Nxe4 ( { White could have still bailed out with Bb2, but that loses a pawn
+without enough compensation. } 10. Bb2 Nxc4 $1 ( 10... Nxc3 11. Qe1 { Pinning
+to win the piece back.}  11... Nxd5 ( 11... Nxc4 12. Bxc3 Ne5 ) 12. Bxg7 Kxg7
+13. cxd5 c5 )11. bxc4 Bxc3 12. Bxc3 Nxc3 )10... Bxa1 11. Nd4 ( 11. Bh6 Bg7 12.
+Bxg7 Kxg7 )11... Bxe4 12. Bxe4 ( 12. Bh6 Bxg2 13. Qxa1 { There is now a
+revealed mate threat, threatening to win the queen with, e.g., Nd4-c6}  13...
+e5 { To parry the threat. Also the simple Qd7 would have worked.}  14. dxe6 {
+Renewing the threat}  14... f6 ( { This was also working, since the black queen
+can now side-step and protect g7. } 14... fxe6 15. Nxe6 Qe7 )15. Bxf8 Bxf1 16.
+e7 ( 16. Bh6 $4 Bh3 17. Bd2 c5 18. Nb5 d5 )16... Qd7 17. Kxf1 { The position is
+now roughly equal. Sooner or later, black needs to give the exchange back for
+Bf8 and e7.}  )12... c5 13. Nf3 ( 13. dxc6 $2 { Taking en passant would leave
+white exchange down for a pawn, but as the position opens, rooks become more
+active and the material difference more pronounced.}  13... Nxc6 14. Nxc6 bxc6
+15. Bg5 Bg7 16. Bxc6 { White Q-side pawns are string strong and the bishop pair
+is nice, but black's two rooks are also nice. When the position is open enough,
+black should usually always have the fall-back option in giving the exchange
+back for a pawn, thus, equalizing material.}  )13... Bg7 { Position check.
+White basically needs to have an active plan here to justify being exchange
+down. Looking at the piece positioning, white has all pieces ready to jump to
+an attack, but black is basically two defenders down. It takes some time for
+white to create an attack, though.[%cal     
+Ge4h7,Gc1h6,Gf3g5,Gh2h5,Gg1g2,Gf1h1][%csl Ra5,Ya8]}  14. h4 $1 { A direct and
+logical way to start the attack!}  14... b5 $1 { Black needs to have active
+counter-play. Passive play waiting for white's attack would be detrimental.
+Pawn to b5 either opens the b-file or weakens white's d5-pawn.}  15. cxb5 {
+White cannot afford black to open the b-file.}  15... Qd7 16. Bd3 Rac8 { Now
+battling over the c-file. Threatening c4.}  17. Qc2 e6 { Now threatening to
+open the e-file. Rooks need open files.}  18. e4 exd5 19. exd5 Qc7 20. Be2 Rfe8
+21. Be3 Bd4 22. Bh6 Bg7 23. Bxg7 Kxg7 24. h5 Nb7 25. Kg2 Kg8 26. Rh1 Qe7 27.
+Bc4 f5 28. Qc1 ( { A beautiful way to finish the game was missed. } 28. hxg6 $3
+hxg6 29. Qd2 $1 { This will protect Bd3 later.}  29... Qf6 30. Rh6 Rc7 31. Nh4
+Rg7 32. Bd3 Qd4 33. Nxg6 $1 Nd8 34. Nh4 Qxd5+ 35. Kh2 Nf7 36. Nxf5 Ne5 37. Ne7+
+$1 { This is a fancy Q exchange, but white gets to take almost all black pawns.
+[%cal    Re7d5,Rd3h7,Yd2d5,Ge5f3]}  37... Kf8 38. Nxd5 Nf3+ 39. Kg2 Nxd2 40.
+Rxd6 Ne4 41. Rc6 Ng5 42. Nf4 Rd8 43. Rxc5 { The number pawns of white is
+overwhelming, regardless of being an exchange down.}  )28... Qf6 { [%cal  ]} 
+29. Qh6 ( { The queen position here makes all the difference. The queen really
+needed to be on d2 to make the tactics work. } 29. hxg6 hxg6 30. Rh6 Rc7 31.
+Nh4 Rg7 32. Bd3 Qd4 33. Nxg6 $4 { There is no Nxg6 because the bishop on d3 is
+not protected.}  33... Qxd5+ 34. Kg1 Qxd3 )29... Qg7 30. Qf4 Qf6 31. hxg6 hxg6
+32. Ng5 Re7 33. Rh6 Rce8 34. g4 Rg7 35. Ne6 Rh7 36. gxf5 Qxf5 37. Qxf5 gxf5 38.
+Rf6 Rf7 39. Rg6+ Kh8 40. Kf3 Rg8 41. Rh6+ Rh7 42. Rf6 Nd8 43. Rxf5 Nf7 44. Ke2
+Rg1 $2 { Probably better would have been to move the knight to h6 or somewhere
+else. Bd3 threatens a exposition against Rh7 and the knight loses protection.} 
+45. Bd3 Kg8 { [%cal  ]}  46. Rf6 $5 ( 46. Rf4 $1 { This was perhaps the most
+straightforward way to victory}  46... Rh5 47. Ra4 Rxd5 48. b6 $1 Re5+ ( 48...
+axb6 $2 49. Ra8+ Nd8 $7 50. Rxd8+ Kf7 51. Nf4 { Two pieces for a rook should be
+a straightforward win here.}  )49. Kd2 Rxe6 50. bxa7 Re8 51. a8=Q Rxa8 52.
+Rxa8+ Kg7 53. a4 )46... Rh6 47. Rxh6 Nxh6 48. a4 { The position is now
+resignable for black. Both white's ab pawns and f pawn can't be stopped, even
+if exchange up.}  48... Nf7 49. f4 Rg2+ 50. Kf3 Rd2 51. Bc4 Kh7 52. Nf8+ Kg7
+53. Nd7 Rh2 54. Nb8 Rh3+ 55. Kg2 Rh8 56. Nc6 Kf6 ( { Would not help: ab-pawns
+still crash through. } 56... Ra8 57. a5 Nd8 58. a6 $1 Kf8 59. Nxa7 $1 Rxa7 60.
+b6 Ra8 61. a7 $1 { With the idea of maneuvring the bishop to c6.}  61... Kf7
+62. Bb5 Ke7 63. Bc6 Rc8 64. a8=Q Rxa8 65. Bxa8 { And white has easy way to
+victory}  )57. Nxa7 Kf5 58. b6 Rb8 59. Nc6 Rh8 ( { Wouldn't help } 59... Rxb6
+60. a5 Rb7 61. a6 Rc7 62. Kf3 Kf6 63. a7 Rc8 64. Nb8 Kg6 65. a8=Q )60. b7 Rh5
+61. b8=Q Kxf4 62. Qc7 Rg5+ 63. Kf2 Rf5 64. Bd3 Ne5 65. Bxf5 Kg5 66. Qxd6 Kxf5
+67. Qxe5+ Kg6 68. Qe6+ Kg5 69. Kg3  1-0
+
